@@ -3,6 +3,19 @@ Change Log
 ############
 
 *****************
+February, 2015
+*****************
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
+   * - 2/4/15
+     - Updated :ref:`Create an Account` section.
+
+*****************
 January, 2015
 *****************
 
