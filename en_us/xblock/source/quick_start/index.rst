@@ -14,3 +14,5 @@ XBlock SDK and the edX Platform.
    :maxdepth: 2
   
    requirements
+   setup_sdk
+   create_first_xblock
