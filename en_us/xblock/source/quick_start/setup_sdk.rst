@@ -81,5 +81,4 @@ the `XBlock SDK`_. You complete these steps in the command prompt.
 When the requirements are installed, you are then ready to create your first
 XBlock.
 
-
 .. include:: ../links.rst

@@ -8,7 +8,7 @@ To build an XBlock, you must have required background knowledge, described in
 this topic. See the following requirements:
 
 * `Git`_
-* `A Virtual Environement`_
+* `A Virtual Environment`_
 
 ****
 Git
@@ -23,12 +23,12 @@ If you do not have Git installed, or are unfamiliar with the tool, see the
 `GitHub Help`_.
 
 ************************
-A Virtual Environement
+A Virtual Environment
 ************************
 
 You develop your XBlock in a Python virtual environment.
 
-The instructions and exaples in this tutorial use `VirtualEnv`_ and
+The instructions and examples in this tutorial use `VirtualEnv`_ and
 `VirtualEnvWrapper`_ to build XBlocks. You could also use `PyEnv`_.
 
 .. include:: ../links.rst
