@@ -1,14 +1,9 @@
-.. _Create Your First XBlock:
+******************
+Create an XBlock
+******************
 
-#########################
-Create Your First XBlock
-#########################
-
-Before you continue, make sure that you have :ref:`set up the XBlock SDK <Set
-Up the XBlock Software Development Kit>`.
-
-When you have set up the XBlock SDK, you use the SDK to create skeleton files
-for an XBlock. To do this, follow these steps at a command prompt.
+You use the XBlock SDK to create skeleton files for an XBlock. To do this,
+follow these steps at a command prompt.
 
 #. In the ``my_xblock_development/xblock-sdk`` directory, make sure that the
    the virtual environment is activated, and then run the following command to
@@ -53,8 +48,3 @@ the ``XBlock SDK`` directory.
 
 .. LIST FILES
 
-You have now completed the Getting Started section of the XBlock tutorial. In
-the next sections, you will learn about the structure of the XBlock, how to
-create a basic XBlock example, and how to deploy the XBlock.
-
-.. include:: ../links.rst

@@ -6,5 +6,9 @@ EdX XBlock Tutorial
 .. toctree::
     :maxdepth: 2
 
-    quick_start/index
+    getting_started/index
+    sdk/index
+    anatomy/index
+    build/index
+    concepts/index
     
