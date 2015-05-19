@@ -1,50 +1,51 @@
-.. _Set up the XBlock SDK:
+.. _Set Up the XBlock Software Development Kit:
 
 ###########################################
-Set up the XBlock Software Development Kit
+Set Up the XBlock Software Development Kit
 ###########################################
 
-Before continuing, ensure you have reviewed the 
-:ref:`XBlock development requirements <XBlock Development Requirements>`.
+Before you continue, make sure that you're familiar with the subjects in the 
+:ref:`Install XBlock Prerequisites` section.
 
-The first step in building your XBlock is to set up the `XBlock SDK`_ in a
-virtual environment. 
+When you have installed all prerequisities, you are ready to set up the `XBlock
+SDK`_ in a virtual environment. To do this, complete the following steps.
 
-Complete the following tasks:
-
-#. `Create and Activate the Virtual Environment`_.
-#. `Clone XBlock Software Development Kit`_
+.. contents:: Section Contents:
+ :local:
+ :depth: 1
 
 ********************************************
 Create and Activate the Virtual Environment
 ********************************************
 
-The first step is to create the virtual environment in which you will develop
+The first step is to create the virtual environment where you will develop
 your XBlock. You complete these steps in the command prompt.
 
 #. Go to the directory where you will develop your XBlock.
 
-#. In the command prompt, create the virtual environment.
+#. At the command prompt, run the following command to create the virtual
+   environment.
    
    .. code-block:: bash
 
       virtualenv my_xblock_development
 
 #. When the virtual environment is created, go to the ``my_xblock_development``
-   directory in the command prompt.
+   directory at the command prompt, and then run the following command.
 
    .. code-block:: bash
 
       cd my_xblock_development
 
-#. Activate the virtual environment.
+#. At the command prompt in the ``my_xblock_development`` directory, run the
+   following command to activate the virtual environment.
 
    .. code-block:: bash
   
       source bin/activate
 
-   When the virtual environment is activated, the command prompt changes to
-   show the name of the virtual directory in parentheses.
+   When the virtual environment is activated, the command prompt shows the name
+   of the virtual directory in parentheses.
 
    .. code-block:: bash
      
@@ -52,33 +53,34 @@ your XBlock. You complete these steps in the command prompt.
 
 
 ********************************************
-Clone XBlock Software Development Kit
+Clone the XBlock Software Development Kit
 ********************************************
 
-When you have created and activated the virtual environment, you then clone the
-the `XBlock SDK`_. You complete these steps in the command prompt.
+After you create and activate the virtual environment, clone the `XBlock SDK`_.
+To do this, complete the following steps at a command prompt.
 
-#. In the ``my_xblock_development`` directory, with the virtual environment
-   activated, clone the XBlock SDK repository from GitHub.
+#. In the ``my_xblock_development`` directory, make sure that the the virtual
+   environment is activated, and then run the following command to clone the
+   XBlock SDK repository from GitHub.
 
    .. code-block:: bash
 
       git clone https://github.com/edx/xblock-sdk.git
 
-#. When the XBlock SDK is cloned, go to the ``xblock-sdk`` directory in the
-   virtual environment.
+#. When the XBlock SDK is cloned, run the following command to go to the
+   ``xblock-sdk`` directory in the virtual environment.
 
    .. code-block:: bash
 
       cd xblock-sdk
 
-#. Install the XBlock SDK requirements.
+#. From the ``xblock-sdk`` directory, run the following command to install the
+   XBlock SDK requirements.
 
    .. code-block:: bash
   
       pip install -r requirements.txt
 
-When the requirements are installed, you are then ready to create your first
-XBlock.
+When the requirements are installed, you are ready to create your first XBlock.
 
 .. include:: ../links.rst

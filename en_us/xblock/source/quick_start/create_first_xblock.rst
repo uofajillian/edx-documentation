@@ -4,20 +4,23 @@
 Create Your First XBlock
 #########################
 
-Before continuing, ensure you have completed the steps to 
-:ref:`set up the XBlock SDK <Set up the XBlock SDK>`.
+Before you continue, make sure that you have :ref:`set up the XBlock SDK <Set
+Up the XBlock Software Development Kit>`.
 
-When you have set up the XBlock SDK, you use it to create the an XBlock. You
-complete these steps in the command prompt.
+When you have set up the XBlock SDK, you use the SDK to create skeleton files
+for an XBlock. To do this, follow these steps at a command prompt.
 
-#. In the ``my_xblock_development/xblock-sdk`` directory, with the virtual
-   environment activated, create the XBlock.
+#. In the ``my_xblock_development/xblock-sdk`` directory, make sure that the
+   the virtual environment is activated, and then run the following command to
+   create the skeleton files for the XBlock.
    
    .. code-block:: bash
 
       script/startnew.py
 
-   You see the following instructions in the command window.
+   After you run this command, instructions in the command window instruct you
+   to determine a short name and a class name. Follow the guidelines in the
+   command window to determine the names that you want to use.
 
    .. code-block:: bash
 
@@ -37,13 +40,8 @@ complete these steps in the command prompt.
       incorrectly, just type Ctrl-C to stop this script.  If you don't want the
       resulting project, just delete the directory it created.
 
-#. Enter the ``Short name`` of your XBlock at the prompt.
-
-   .. code-block:: bash
-
-      Short name: myxblock
-
-#. Enter the ``Class name`` of your XBlock at the prompt.
+#. At the command prompt, enter the names you selected for your XBlock when you
+   receive the Short name and Class name prompts.
 
    .. code-block:: bash
   
@@ -53,10 +51,10 @@ complete these steps in the command prompt.
 The skeleton files for the XBlock are created in the ``myxblock`` directory in
 the ``XBlock SDK`` directory.
 
-SCREEN SHOT
+.. LIST FILES
 
-This completes the XBlock Quick Start section.  In the next sections, we will
-learn about the structure of the XBlock, how to create a basic XBlock example,
-and how to deploy the XBlock.
+You have now completed the Getting Started section of the XBlock tutorial. In
+the next sections, you will learn about the structure of the XBlock, how to
+create a basic XBlock example, and how to deploy the XBlock.
 
 .. include:: ../links.rst

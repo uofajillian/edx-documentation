@@ -1,14 +1,14 @@
-.. _XBlock Development Requirements:
+.. _Install XBlock Prerequisites:
 
 ################################
-XBlock Development Requirements
+Install XBlock Prerequisites
 ################################
 
-To build an XBlock, you must have required background knowledge, described in
-this topic. See the following requirements:
+To build an XBlock, you must have the following tools on your computer.
 
-* `Git`_
-* `A Virtual Environment`_
+.. contents:: Section Contents:
+ :local:
+ :depth: 1
 
 ****
 Git
@@ -19,14 +19,14 @@ EdX repositories, including XBlock and the XBlock SDK, are stored in GitHub.
 To build your own XBlock, and to deploy it later, you must use Git for source
 control.
 
-If you do not have Git installed, or are unfamiliar with the tool, see the
-`GitHub Help`_.
+If you do not have Git installed, or you are are unfamiliar with the tool, see
+the `GitHub Help`_.
 
 ************************
-A Virtual Environment
+Virtual Environments
 ************************
 
-You develop your XBlock in a Python virtual environment.
+You must develop your XBlock in a Python virtual environment.
 
 The instructions and examples in this tutorial use `VirtualEnv`_ and
 `VirtualEnvWrapper`_ to build XBlocks. You could also use `PyEnv`_.
