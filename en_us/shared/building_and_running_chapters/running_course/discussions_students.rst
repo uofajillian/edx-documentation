@@ -34,9 +34,9 @@ Posts, Responses, and Comments
 ::
 
   Post: "Please introduce yourself."
-    - Reponse: "My name is Lee and I teach secondary school maths in Canberra,
+    - Response: "My name is Lee and I teach secondary school maths in Canberra,
       Australia."
-    - Reponse: "Hello everyone, I am Sumei from Hong Kong, China."
+    - Response: "Hello everyone, I am Sumei from Hong Kong, China."
       - Comment: "Hi Sumei, I am taking this course in Hong Kong too. Maybe we
         should make a study group!"
       - Comment: "I'd like to join the Hong Kong study group too, I think it
@@ -45,8 +45,8 @@ Posts, Responses, and Comments
       matric exams."
 
 This example shows the different ways that you can contribute to a discussion.
-The *post* initiates the conversation, *responses* are replies to the post, and
-*comments* expand on specific responses. Before you add a post, response, or
+The post initiates the conversation, responses are replies to the post, and
+comments expand on specific responses. Before you add a post, response, or
 comment, take a moment to consider which of these options best suits the
 contribution that you want to make. This helps keep course discussions
 organized and easy to follow.
@@ -97,10 +97,10 @@ Types of Discussion Posts
 When you make a contribution in a course discussion topic, you add your post
 as either a question or a discussion.
 
-* A *question* post raises an issue so that the course staff and community can
+* A question post raises an issue so that the course staff and community can
   provide answers. 
 
-* A *discussion* post starts a conversation by sharing thoughts and reflections,
+* A discussion post starts a conversation by sharing thoughts and reflections,
   and inviting community participation.
 
 When you add a post to a discussion topic, you must specify whether it is a question
@@ -225,6 +225,16 @@ Add a Post to a Content-Specific Discussion Topic
 #. Enter the complete text. Options for formatting the text and for adding
    links or images are available: click the buttons above the text field.
 
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  Note that any text formatting or images that you add are only visible
+  when others read your post in a web browser. The edX mobile app does not
+  currently display added formatting or images.
+
+
 Add a Post to a Course-Wide Discussion Topic
 **************************************************
 
@@ -249,6 +259,15 @@ discussion topics.
 #. Enter the complete text. Options for formatting the text and for adding
    links or images are available: click the buttons above the text field.
 
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  Note that any text formatting or images that you add are only visible
+  when others read your post in a web browser. The edX mobile app does not
+  currently display added formatting or images.
+
 ===========================
 Add a Response or Comment
 ===========================
@@ -258,6 +277,15 @@ adding a response, or expand on a particular response by adding a comment.
 
 The same options for formatting the text and for adding links or images are
 available for responses and comments as for posts.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  Note that any text formatting or images that you add are only visible
+  when others read your post in a web browser. The edX mobile app does not
+  currently display added formatting or images.
 
 Add a Response or Comment to a Content-Specific Discussion Topic
 ****************************************************************
@@ -454,6 +482,14 @@ the response.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/Discussion_answer_question.png
  :alt: A question and a response, with the Mark as Answer icon circled
+
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  Note that you can only mark questions as answered when you work in a web browser.
 
 After at least one response is marked as the answer, a check or tick mark image
 replaces the question mark image for the post in the list on the **Discussion**

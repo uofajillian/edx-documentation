@@ -52,15 +52,15 @@ Students and staff use course discussions to share ideas, exchange views,
 consider different viewpoints, and ask questions. In a discussion, there are
 three hierarchical levels of interaction.
 
-* A *post* is the first level of interaction. A post opens a new subject. Posts
+* A post is the first level of interaction. A post opens a new subject. Posts
   can be made as questions, to solicit a concrete answer, or as discussions,
   to start a conversation. When you add a post, you decide whether to add it
   as a **Question** or as a **Discussion**.
 
-* A *response* is the second level of interaction. A response is a reply made
+* A response is the second level of interaction. A response is a reply made
   directly to a post to provide a solution or continue the conversation.
 
-* A *comment* is the third level of interaction. A comment is often a
+* A comment is the third level of interaction. A comment is often a
   clarification or side note made to a specific response, rather than to the
   post as a whole.
  
@@ -214,46 +214,57 @@ topics, see :ref:`Visibility of Discussion Topics`.
 Assign Discussion Administration Roles 
 *************************************************
 
-You can designate a team of people to help you run course discussions.
+You can designate a team of people to help you run course discussions. Team
+members who have a discussion administration role have additional options for
+working with posts, responses, and comments.
 
-.. note:: The course team that you set up in Studio (or the course staff and
-   instructors you add on the Instructor Dashboard) are not automatically
-   granted discussion administration roles.
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
 
+.. only:: Open_edX
 
-   Discussion administration roles must be explicitly granted to members of
-   the course team for them to moderate or administer course discussions. The
-   course author, team members with Admin access (Studio), and Instructors
-   (Instructor Dashboard) can grant discussion administration roles.
+  .. note:: The additional options for discussion administration are only
+    available when team members work in a web browser. The edX mobile app does
+    not currently offer the additional options.
 
+.. important:: The course team that you set up in Studio (or the course staff 
+ and instructors you add on the Instructor Dashboard) are not automatically
+ granted discussion administration roles.
+
+ Discussion administration roles must be explicitly granted to members of the
+ course team for them to moderate or administer course discussions. The course
+ author and team members with Admin access (Studio) or Instructors (LMS
+ Instructor Dashboard) can grant discussion administration roles.
 
 Different options for working with discussions are available through
 the following roles.
 
-* *Discussion moderators* can edit and delete messages at any level, review
+* Discussion moderators can edit and delete messages at any level, review
   messages flagged for misuse, close and reopen posts, pin posts, and endorse
-  responses. Posts made by moderators are marked as "By: Staff" in the list of
+  responses.
+
+  Posts made by moderators are marked as "By: Staff" in the list of
   posts. Responses and comments made by moderators have a colored "Staff"
   identifier. This role is often given to course team members who already have
   the Course Staff role.
 
-.. removed this clause from 1st sentence per JAAkana and MHoeber: , and, if the
-.. course is cohorted, see posts from all cohorts
+* Discussion community TAs have the same options for working with discussions
+  as moderators. 
 
-* *Discussion community TAs* have the same options for working with discussions
-  as moderators. Posts made by community TAs are marked as "By: Community TA"
-  in the list of posts on the **Discussion** page. Responses and comments made
-  by community TAs have a colored "Community TA" identifier. This role is often
-  given to students.
+  Posts made by community TAs are marked as "By: Community TA" in the list of
+  posts on the **Discussion** page. Responses and comments made by community
+  TAs have a colored "Community TA" identifier. This role is often given to
+  students.
 
-.. I put this comment in to make the formatting of this bulleted list consistent when output using the sphinx template
-
-* *Discussion admins* have the same options for working with discussions as
+* Discussion admins have the same options for working with discussions as
   moderators, and their posts, responses, and comments have the same "Staff"
-  identifiers. This role can be reserved for assignment to course team members
-  who have the Instructor role only: the discussion admins can then both
-  moderate discussions and give other users these discussion management roles
-  whenever necessary.
+  identifiers. In addition, they can grant the discussion moderator and
+  community TA roles to other members of the community.
+
+  This role can be reserved for assignment to course team members who have the
+  Instructor role only: the discussion admins can then both moderate
+  discussions and give other users these discussion management roles whenever
+  necessary.
 
 Before you can assign roles to your discussion team, you need their email
 addresses or usernames.
@@ -331,6 +342,7 @@ regardless of whether the course has started. They are not associated with any
 particular section or subsection of the courseware, and are not subject to
 release dates.
 
+.. not sure who added this ^^, but maybe it should go lower, with the topic on seeding the discussions - Alison June 2015
 
 .. _Running_discussions:
 
@@ -386,7 +398,7 @@ Some examples follow.
   providing guidance, these initial messages can act as models for learners to
   follow when they create their own posts.
 
-We strongly recommend that you do not create seed posts in content-specific
+EdX strongly recommends that you do not create seed posts in content-specific
 discussion topics before the course starts or before the containing unit is
 released. The category and subcategory names for content-specific discussion
 topics are subject to the release visibility of their containing unit, and are
@@ -433,6 +445,14 @@ discussion.
   in a course-wide discussion topic (such as General) to provide guidance about
   when to start a new thread by adding a post, responding to an existing post,
   or commenting on a response.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  Note that you can only pin posts and mark questions as answered when you work
+  in a web browser.
 
 .. _Moderating_discussions:
 
@@ -571,6 +591,14 @@ responses, and comments. Messages that include spoilers or solutions, or that
 contain inappropriate or off-topic material, should be edited quickly to remove
 text, images, or links.
 
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: You can only edit messages in a web browser. You cannot edit 
+   messages when you work in the edX mobile app.
+
 #. Log in to the site and then select the course on your **Current Courses**
    dashboard.
 
@@ -594,6 +622,14 @@ Delete Messages
 Discussion moderators, community TAs, and discussion admins can delete the
 content of posts, responses, and comments. Posts that include spam or abusive
 language may need to be deleted, rather than edited.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: You can only delete messages in a web browser. You cannot delete 
+   messages when you work in the edX mobile app.
 
 #. Log in to the site and then select the course on your **Current Courses**
    dashboard.
@@ -620,6 +656,15 @@ Respond to Reports of Misuse
 Students have the option to report contributions that they find inappropriate.
 Moderators, community TAs, and admins can check for messages that have been
 flagged in this way and edit or delete them as needed.
+
+.. The following paragraph applies to the edX mobile app for Open edX (with discussions)
+.. Alison, DOC-1815, June 2015
+
+.. only:: Open_edX
+
+  .. note:: You can only respond to reports of misuse in a web browser. You 
+   cannot edit, delete, or unreport messages when you work in the edX mobile
+   app.
 
 #. View the live version of your course and click **Discussion** at the top of
    the page.
