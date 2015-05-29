@@ -12,7 +12,24 @@ June 2015
 
    * - Date
      - Change
-   * - 10 Jun 2015
+   * - 23 June
+     - Several additions were made to provide information about using feedback
+       and hints in common problems.
+       
+       * :ref:`Adding Feedback and Hints to a Problem`
+       
+       * :ref:`Use Feedback in a Checkbox Problem`
+       * :ref:`Use Hints in a Checkbox Problem`
+       * :ref:`Use Feedback in a Dropdown Problem` 
+       * :ref:`Use Hints in a Dropdown Problem`
+       * :ref:`Use Feedback in a Multiple Choice Problem` 
+       * :ref:`Use Hints in a Multiple Choice Problem`
+       * :ref:`Use Feedback in a Numerical Input Problems` 
+       * :ref:`Use Hints in a Numerical Input Problem`
+       * :ref:`Use Feedback in a Text Input Problem` 
+       * :ref:`Use Hints in a Text Input Problem`
+   
+   * - 10 June 2015
      - Added the :ref:`Adding a Pre-Roll Video` section.
    * - 
      - Added the :ref:`view_not_yet_enrolled` section.
