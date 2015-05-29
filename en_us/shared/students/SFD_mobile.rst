@@ -134,8 +134,23 @@ including readings, homework problems, and exams, use a computer.
 How do I post questions on the discussion board?
 ========================================================
 
-Right now, you cannot use the app to participate in course discussions. To
-read or contribute to the discussions, use a computer.
+.. The following paragraph describes the features of the edX mobile app for partners/edx.org (video only)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Partners
+
+  Right now, you cannot use the app to participate in course discussions. To
+  read or contribute to the discussions, use a computer.
+
+.. The following paragraph describes the features of the edX mobile app for Open edX (adds notifications, assessments, discussions)
+.. Alison, DOC-1840, June 2015
+
+.. only:: Open_edX
+
+  To read or contribute to course discussions, view your course in **full
+  mode**. You can then select **Discussion** and find the topics that youa re
+  interested in.
+
 
 .. _Video Questions:
 
