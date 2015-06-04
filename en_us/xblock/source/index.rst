@@ -4,6 +4,7 @@ EdX XBlock Tutorial
 
 
 .. toctree::
+    :numbered:
     :maxdepth: 2
 
     getting_started/index

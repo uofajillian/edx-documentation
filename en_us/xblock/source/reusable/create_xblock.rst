@@ -44,7 +44,8 @@ follow these steps at a command prompt.
       Class name: MyXBlock
 
 The skeleton files for the XBlock are created in the ``myxblock`` directory in
-the ``XBlock SDK`` directory.
+the ``XBlock SDK`` directory. For more information about the XBlock files, see
+:ref:`Anatomy of an XBlock`.
 
 .. LIST FILES
 
