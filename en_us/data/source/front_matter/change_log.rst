@@ -15,6 +15,9 @@ April-June 2015
 
    * - Date
      - Change
+   * - 23 Jun 15
+     - Added new events for :ref:`problem hints<problem>` to the
+       :ref:`Tracking Logs` section.
    * - 10 Jun 2015
      - Added information about events for :ref:`pre-roll videos<pre-roll>` to
        the :ref:`Tracking Logs` section.

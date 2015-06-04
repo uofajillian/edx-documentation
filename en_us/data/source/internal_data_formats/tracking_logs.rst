@@ -14,7 +14,6 @@ the data package, event data is delivered in a log file.
   :local:
   :depth: 1
 
-
 The student and instructor events are grouped into categories in this section.
 For a complete, alphabetical list of events, see the :ref:`event_list`.
 
@@ -2166,20 +2165,9 @@ Problem Interaction Events
 
 This section includes descriptions of the following events. 
 
-* ``problem_check`` (Browser)
-* ``problem_check`` (Server)
-* ``problem_check_fail``
-* ``problem_reset``
-* ``problem_rescore``
-* ``problem_rescore_fail``
-* ``problem_save``
-* ``problem_show``
-* ``reset_problem``
-* ``reset_problem_fail`` 
-* ``show_answer`` 
-* ``save_problem_fail`` 
-* ``save_problem_success``
-* ``problem_graded``
+.. contents:: Section Contents
+  :local:
+  :depth: 1
 
 Problem interaction events are emitted by the server or the browser to capture
 information about interactions with problems. 
@@ -2188,6 +2176,115 @@ These events were designed for the problem types implemented in the edX
 platform by the ``capa_module.py`` XBlock. Problem types that are implemented
 by other XBlocks, such as :ref:`open response assessments<ora2>`, are
 instrumented with different events.
+
+For more information about designing problems to include hints, feedback, or
+both, see `Adding Hints and Feedback to a Problem`_ in the *Building and
+Running an edX Course* guide.
+
+``edx.problem.hint.demandhint_displayed``
+******************************************
+
+Course teams can design problems to include one or more hints. For problems
+that include hints, the server emits an
+``edx.problem.hint.demandhint_displayed`` event each time a user requests a
+hint.
+
+**Event Source**: Server
+
+**History**: This event was added on 23 Jun 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``hint_index``
+     - integer
+     - Identifier for the hint that was displayed to the user. The first hint
+       defined for a problem is identified with ``hint_index: 0``.
+   * - ``hint_len``
+     - integer
+     - The total number of hints defined for this problem. 
+   * - ``hint_text``
+     - string
+     - The text of the hint that was displayed to the user.
+   * - ``module_id``
+     - string
+     - Identifier for the problem component for which the user requested the
+       hint.
+
+``edx.problem.hint.feedback_displayed``
+*****************************************
+
+Course teams can design problems to include feedback messages that appear after
+a user submits an answer. For problems that include feedback messages, the
+server emits an ``edx.problem.hint.feedback_displayed`` event each time a user
+selects **Check**.
+
+**Event Source**: Server
+
+**History**: This event was added on 23 Jun 2015.
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``choice_all``
+     - array
+     - For problems that have a set of possible answers defined, such as
+       checkbox problems, lists all of the answer choices.
+   * - ``correctness``
+     - Boolean
+     - 'True' if the ``student_answer`` response is correct. 'False' if the
+       ``student_answer`` is incorrect.
+   * - ``hint_label``
+     - string
+     - The optional label, such as 'Correct: ' or 'Incorrect: ', provided for
+       the feedback message.
+   * - ``hints``
+     - array
+     - Contains a ``text`` member field with the feedback string that was
+       displayed to the user. For some problem types, such as checkbox
+       problems, feedback can be provided for more than one answer at a time,
+       including both correct and incorrect answers. A separate ``text`` member
+       field is included for each feedback message that was displayed.
+   * - ``module_id``
+     - string
+     - Identifier for the problem component for which the user received the
+       feedback.
+   * - ``problem_part_id``
+     - string
+     - For problem components that contain more than one problem, identifies
+       the specific problem for which the user received feedback.
+   * - ``question_type``
+     - string
+     - The XML tag that identifies the problem type. For example,
+       'stringresponse' for a text input problem.
+   * - ``student_answer``
+     - array
+     - The answer value selected or supplied by the user. For problem types
+       that accept multiple answers, such as checkbox problems, every response,
+       including both selected and unselected options, is included.
+   * - ``trigger_type``
+     - string
+     - Identifies the type of feedback elicited by the ``student_answer``
+       response. For checkbox problems only, course teams can design 'compound'
+       feedback that is provided when a user's response matches an exact set of
+       correct and incorrect selections across all of the available choices.
+       All other types of feedback are identified as 'single'.
+
+       For more information, see `Adding Hints and Feedback to a Problem`_ in
+       the *Building and Running an edX Course* guide.
+
 
 ``problem_check`` (Browser)
 *********************************
@@ -2244,6 +2341,7 @@ event type also includes the following ``context`` member field.
        Contains the member field ``display_name``, which is the string value
        for the **Display Name** given to the problem component.
 
+.. ^^now documented as part of common context
 
 ``event`` **Member Fields**: 
 
@@ -2267,10 +2365,11 @@ event type also includes the following ``context`` member field.
      - For each problem ID value listed by ``answers``, provides:
        
        * ``correctness``: string; 'correct', 'incorrect'
-       * ``hint``: string; Gives optional hint. Nulls allowed. 
-       * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed. 
+       * ``hint``: string; Gives optional hint. Nulls allowed.
+       * ``hintmode``: string; None, 'on_request', 'always'. Nulls allowed.
        * ``msg``: string; Gives extra message response.
-       * ``npoints``: integer; Points awarded for this ``answer_id``. Nulls allowed.
+       * ``npoints``: integer; Points awarded for this ``answer_id``. Nulls
+         allowed.
        * ``queuestate``: dictionary; None when not queued, else ``{key:'',
          time:''}`` where ``key`` is a secret string dump of a DateTime object
          in the form '%Y%m%d%H%M%S'. Nulls allowed.
@@ -2370,6 +2469,8 @@ reset the answer to a problem.
    * - ``answers``
      - string
      - The value reset by the user. 
+
+.. ^^alphabetize
 
 ``problem_rescore``
 *********************************
@@ -2582,6 +2683,8 @@ The server emits ``show_answer`` events when the answer to a problem is shown.
      - string
      - EdX ID of the problem being shown. 
 
+.. ^^alphabetize
+
 ``save_problem_fail`` 
 *********************************
 
@@ -2671,6 +2774,7 @@ for a problem and it is graded successfully.
        The array includes each problem in a problem component that has multiple
        problems.
 
+.. ^^alphabetize
 
 .. _library_events:
 
@@ -3612,7 +3716,7 @@ the child module that was shown to the student.
      - Details
    * - ``child_id``
      - string
-     - ID of the module that displays to the student. 
+     - ID of the module that was displayed to the student. 
        
        **History**: Renamed on 16 Oct 2014 from ``child-id`` to ``child_id``.
        
@@ -4342,3 +4446,5 @@ uploading a .csv file of student cohort assignments.
 .. _Working with Video Components: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#advanced-options
 
 .. _Adding a Pre-Roll Video to Your edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_video.html#adding-a-pre-roll-video-to-your-edX-course
+
+.. _Adding Hints and Feedback to a Problem: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#adding-hints-and-feedback-to-a-problem
