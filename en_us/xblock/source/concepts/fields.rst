@@ -38,7 +38,8 @@ When you initialize an XBlock field, you define three parameters.
   as edX Studio.
 
 * ``default``: The default value for the field.
-* ``scope``:  The scope of the field.  For more information, see th enext
+
+* ``scope``:  The scope of the field.  For more information, see the next
   section.
 
 ***********
@@ -98,6 +99,12 @@ Fields can relate to XBlocks in the following ways.
 * **All**: The field data is related to all XBlocks, of all types. Any
   XBlock can access the field data.
 
+  ..note:: 
+    When you use the **All** scope, there is potential for name conflicts. If
+    you have two fields of the same name with the scope **All** in different
+    XBlocks types, both fields point to the same data. Therefore you should use
+    caution when using **All**.
+
 =================================
 User and Block Scope Independence
 =================================
@@ -118,7 +125,114 @@ can combine user and block scope.
 * Information about the user, such as language or timezone, is stored in a
   field with the scope with **One user** and **All**.
 
+=================================
+Predefined Scopes
+=================================
+
+XBlock includes the following predefined scopes that you can use when
+configuring fields. Each of these scopes includes the indicated user and block
+scope settings.
+
+* ``Scope.content``
+  
+  * **Block definition**
+  * **No user**
+
+* ``Scope.settings``
+  
+  * **Block usage**
+  * **No user**
+
+* ``Scope.user_state``
+  
+  * **Block usage**
+  * **One user**
+
+* ``Scope.preferences``
+  
+  * **Block type**
+  * **One user**
+
+* ``Scope.user_info``
+  
+  * **All blocks**
+  * **One user**
+
+* ``Scope.user_state_summary``
+  
+  * **Block usage**
+  * **All users**
+
+======================
+Define a Custom Scope
+======================
+
+???
+
+************************
+Fields and Data Storage
+************************
+
+.. What is large?
+
+Because XBlock fields are written and retrieved as single entities, you cannot
+store a large amount of data in a single field.
+
+To store very large amounts of data, you should split the data across many
+smaller fields.
+
+********************
+Initializing Fields
+********************
+
+You do not use the ``init`` method with XBlocks.
+
+XBlocks can be used in many contexts, and the ``init`` method might not work in
+those contexts.
+
+To initialize field values, use one of the following alternatives
+
+* Use ``xblock.fields.UNIQUE_ID`` to set a default String value for the field. 
+
+* Use a lazy property decorator, so that when a field is first accessed, a
+  function is called to set the value.
+
+* Run the logic to set the default field value in the view instead of the
+  ``init`` method.
+
 
 ***************
 Fields and OLX
 ***************
+
+XBlock fields map to attributes in the XBlock Open Learning XML (OLX)
+definition.
+
+For example, you might include the fields ``href``, ``maxwidth``, and
+``maxheight`` in a ``SimpleVideoBlock`` XBlock.  You configure the fields as in
+the following example.
+
+.. code-block:: python
+
+  class SimpleVideoBlock(XBlock):
+      """
+      An XBlock providing oEmbed capabilities for video
+      """
+
+      href = String(help="URL of the video page at the provider", 
+          default=None, scope=Scope.content)
+      maxwidth = Integer(help="Maximum width of the video", default=800, 
+          scope=Scope.content)
+      maxheight = Integer(help="Maximum height of the video", default=450, 
+          scope=Scope.content)
+
+The ``SimpleVideoBlock`` XBlock is represented in OLX as in the following
+example:
+
+.. code-block:: xml
+
+    <simplevideo 
+        href="https://vimeo.com/46100581" 
+        maxwidth="800" 
+        maxheight="450" 
+    />

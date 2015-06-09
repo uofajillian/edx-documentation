@@ -2,6 +2,105 @@
 XBlock Methods
 ####################
 
+You use XBlock methods in the XBlock Python file to define the behavior of your
+XBlock.
 
+.. contents:: Section Contents:
+ :local:
+ :depth: 1
    
-    
+***************
+View Methods
+***************
+
+XBlock view methods are Python methods invoked by the XBlock runtime to render
+the XBlock.
+
+An XBlock can have multiple view methods. For example, an XBlock might have a
+student view for rendering in the edX LMS, and a Studio view for editing the
+XBlock. The XBlock view to use is specified in the runtime.
+
+Typically, you define a view to produce a fragment that is used to render the
+XBlock as part of a web page. Fragments are aggregated hierarchically. You can
+use the user state, settings, and preferences to affect the rendering of the
+XBlock as needed. 
+
+In the following example, the Thumbs sample XBlock in the XBlock SDK defines a
+student view.
+
+.. code-block:: python
+
+    def student_view(self, context=None):  # pylint: disable=W0613
+        """
+        Create a fragment used to display the XBlock to a student.
+        `context` is a dictionary used to configure the display (unused)
+
+        Returns a `Fragment` object specifying the HTML, CSS, and JavaScript
+        to display.
+        """
+
+        # Load the HTML fragment from within the package and fill in the
+          template
+
+        html_str = pkg_resources.resource_string(__name__, "static/html/thumbs.html")
+        frag = Fragment(unicode(html_str).format(self=self))
+
+        # Load the CSS and JavaScript fragments from within the package
+        css_str = pkg_resources.resource_string(__name__, "static/css/thumbs.css")
+        frag.add_css(unicode(css_str))
+
+        js_str = pkg_resources.resource_string(__name__,
+                                               "static/js/src/thumbs.js")
+        frag.add_javascript(unicode(js_str))
+
+        frag.initialize_js('ThumbsBlock')
+        return frag
+
+
+Although view methods typically produce HTML-based renderings, they can be used
+for other purposes. You must ensure that the runtime description of each view
+is clear about what return type is expected and how it will be used.
+
+***************
+Handler Methods
+***************
+
+XBlock handler methods are Python methods invoked by AJAX calls from the user's
+browswer. Handler methods accept an HTTP request and return an HTTP response.
+
+An XBlock can have any number of handler methods. For example, a problem XBlock
+might contain ``submit`` and ``show_answer`` handler methods.
+
+Each handler method has a specific name that is mapped to from specific URLs by
+the runtime. The runtime provides a mapping from handler names to specific URLs
+so that the XBlock Javascript code can make requests to its handlers. Handlers
+can be used with ``GET`` and ``POST`` requests.
+
+In the following example, the Thumbs sample XBlock in the XBlock SDK defines a
+handler for voting.
+
+.. code-block:: python
+
+    def vote(self, data, suffix=''):  # pylint: disable=unused-argument
+        """
+        Update the vote count in response to a user action.
+        """
+        # Here is where we would prevent a student from voting twice, but then
+        # we couldn't click more than once in the demo!
+        #
+        #     if self.voted:
+        #         log.error("cheater!")
+        #         return
+
+        if data['voteType'] not in ('up', 'down'):
+            log.error('error!')
+            return
+
+        if data['voteType'] == 'up':
+            self.upvotes += 1
+        else:
+            self.downvotes += 1
+
+        self.voted = True
+
+        return {'up': self.upvotes, 'down': self.downvotes}

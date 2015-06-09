@@ -9,9 +9,9 @@ examples.
    :maxdepth: 2
 
    fields
-   children
    methods
    views
+   children
    handlers
    services
    runtimes
