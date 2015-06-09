@@ -177,28 +177,10 @@ includes the following sections. The Finance Admin role can see all sections.
 The Sales Admin role can see all sections except the **Course Seat Purchases**
 section. 
 
-.. list-table::
-   :widths: 30 20 20
-   :header-rows: 1
- 
-   * - Section
-     - Finance Admin
-     - Sales Admin
-   * - Enrollment Codes
-     - Yes
-     - Yes
-   * - Course Price
-     - Yes
-     - Yes
-   * - Course Seat Purchases
-     - Yes
-     - No
-   * - Reports
-     - Yes
-     - Yes
-   * - Coupon Code List
-     - Yes
-     - Yes
+.. image:: ../../../shared/building_and_running_chapters/Images/ECommercePage.png
+ :width: 500
+ :alt: The E-Commerce page on the Instructor Dashboard with all sections
+     showing and "Course Price" expanded.
 
 
 .. _Set Course Price:
@@ -239,11 +221,12 @@ section of the **E-Commerce** page on the Instructor Dashboard. You can also
 see information such as the discount amount and the number that have been
 used.
 
-.. To do: create screen shot (will require new sandbox and creating several
-.. example coupon codes)
+.. image:: ../../../shared/building_and_running_chapters/Images/CouponList.png
+ :width: 500
+ :alt: Coupon code list showing active, expired, and deleted coupon codes.
 
-Active and expired coupon codes appear in the order in which they were
-created. Deleted coupon codes appear at the end of the list.
+Active coupon codes appear in the order in which they were created. Deleted
+and expired coupon codes appear at the end of the list.
 
 ========================
 Create Coupon Codes
