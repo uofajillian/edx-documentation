@@ -275,8 +275,8 @@ To see information about a particular coupon code, follow these steps.
      one.
    * **Expiration Date**: The date the coupon code expires.
    * **Number Redeemed**: The number of times the coupon code has been used.
-   * **Actions**: Actions you can take. The options are to delete the coupon
-     code (``[x]``) or edit the coupon code.
+   * **Actions**: Actions you can take. You can select ``[x]`` to delete the
+     coupon code, or select **Edit** to edit the coupon code.
 
 
 ============================
@@ -288,7 +288,7 @@ Dashboard. To see the **E-Commerce** page, you must have either the Sales
 Admin or Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 
 .. note:: You can only edit the description of a coupon code. You cannot 
- edit the code, discount amount, course ID, or expiration date.
+ edit the code, discount percentage, course ID, or expiration date.
 
 #. On the Instructor Dashboard, select the **E-Commerce** page, and then
    select the **Coupon Code List** section.
@@ -412,8 +412,8 @@ have the Finance Admin role. For information, see :ref:`Assign Admin Roles`.
 To cancel or resubmit an invoice, follow these steps.
 
 #. Locate the number of the invoice that you want to cancel or resubmit. You
-   can see the invoice number in the .csv file that the system creates and
-   downloads to your computer when you create enrollment codes.
+   can download a list of all the invoices for the course by selecting
+   **Download All Invoices**.
 #. On the Instructor Dashboard, select the **E-Commerce** page, and then
    select the **Course Seat Purchases** section.
 #. Select the action that you want to complete.
@@ -474,10 +474,12 @@ organization.
 Download Invoice and Credit Card Sales Information
 ===================================================
 
-You can download financial transaction information in the **Course Seat
-Purchases** section of the **E-Commerce** page. To see the **Course Seat
-Purchases** section of the **E-Commerce** page, you must have the Finance
-Admin role. For information, see :ref:`Assign Admin Roles`.
+To see information about financial transactions, including a list of
+enrollment code invoices and detailed credit card purchase information, you
+can download .csv files in the **Course Seat Purchases** section of the
+**E-Commerce** page. To see the **Course Seat Purchases** section of the
+**E-Commerce** page, you must have the Finance Admin role. For information,
+see :ref:`Assign Admin Roles`.
 
 To see financial transaction information, follow these steps.
 
@@ -488,7 +490,13 @@ To see financial transaction information, follow these steps.
   * View the total dollar amount that the course has received for all credit
     card transactions.
   * To download a .csv file of all the invoices for enrollment codes, select
-    **Download All Invoices**.
+    **Download All Invoices**. This .csv file contains information such as the
+    invoice number, the company that purchased the enrollment codes, the
+    number of enrollment codes purchased, and the number of enrollment codes
+    that have been used.
   * To download a .csv file of all credit card purchases, select **Download
-    Credit Card Purchases**.
+    Credit Card Purchases**. This .csv file contains information such as the
+    order ID number, the username of the purchaser, the company that the
+    purchaser is affiliated with (if any), and the date and time of the
+    purchase.
 
