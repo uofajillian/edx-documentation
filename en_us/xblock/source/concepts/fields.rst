@@ -22,15 +22,7 @@ data.
 You define the fields in the XBlock Python file. For example, the ``thumbs.py``
 file in the XBlock SDK includes three fields.
 
-.. code-block:: python
-
-    class ThumbsBlockBase(object):
-        upvotes = Integer(help="Number of up votes", default=0, 
-            scope=Scope.user_state_summary)
-        downvotes = Integer(help="Number of down votes", default=0, 
-            scope=Scope.user_state_summary)
-        voted = Boolean(help="Has this student voted?", default=False, 
-            scope=Scope.user_state)
+.. include:: ../reusable/code_thumbs_fields.rst
 
 When you initialize an XBlock field, you define three parameters.
 

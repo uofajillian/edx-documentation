@@ -7,3 +7,13 @@
 .. _VirtualEnvWrapper: http://virtualenvwrapper.readthedocs.org/en/latest
 
 .. _XBlock SDK: https://github.com/edx/xblock-sdk
+
+.. _Thumbs.py: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/thumbs.py
+
+.. _Thumbs.js: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/js/src/thumbs.js
+
+.. _Thumbs XBlock:  https://github.com/edx/xblock-sdk/tree/master/sample_xblocks/thumbs
+
+.. _1.js: https://github.com/edx/xblock-sdk/blob/master/workbench/static/workbench/js/runtime/1.js
+
+.. _Problem XBlock: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/basic/problem.py

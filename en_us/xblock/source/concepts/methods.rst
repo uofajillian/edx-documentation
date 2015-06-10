@@ -1,3 +1,5 @@
+.. _XBlock Methods:
+
 ####################
 XBlock Methods
 ####################
@@ -18,7 +20,7 @@ the XBlock.
 
 An XBlock can have multiple view methods. For example, an XBlock might have a
 student view for rendering in the edX LMS, and a Studio view for editing the
-XBlock. The XBlock view to use is specified in the runtime.
+XBlock. The XBlock view name to use is specified in the runtime.
 
 Typically, you define a view to produce a fragment that is used to render the
 XBlock as part of a web page. Fragments are aggregated hierarchically. You can
@@ -28,33 +30,7 @@ XBlock as needed.
 In the following example, the Thumbs sample XBlock in the XBlock SDK defines a
 student view.
 
-.. code-block:: python
-
-    def student_view(self, context=None):  # pylint: disable=W0613
-        """
-        Create a fragment used to display the XBlock to a student.
-        `context` is a dictionary used to configure the display (unused)
-
-        Returns a `Fragment` object specifying the HTML, CSS, and JavaScript
-        to display.
-        """
-
-        # Load the HTML fragment from within the package and fill in the
-          template
-
-        html_str = pkg_resources.resource_string(__name__, "static/html/thumbs.html")
-        frag = Fragment(unicode(html_str).format(self=self))
-
-        # Load the CSS and JavaScript fragments from within the package
-        css_str = pkg_resources.resource_string(__name__, "static/css/thumbs.css")
-        frag.add_css(unicode(css_str))
-
-        js_str = pkg_resources.resource_string(__name__,
-                                               "static/js/src/thumbs.js")
-        frag.add_javascript(unicode(js_str))
-
-        frag.initialize_js('ThumbsBlock')
-        return frag
+.. include:: ../reusable/code_thumbs_student_view.rst
 
 
 Although view methods typically produce HTML-based renderings, they can be used

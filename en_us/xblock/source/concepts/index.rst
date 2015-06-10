@@ -10,9 +10,7 @@ examples.
 
    fields
    methods
-   views
+   fragments
    children
-   handlers
-   services
    runtimes
     
