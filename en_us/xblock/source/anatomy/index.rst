@@ -12,6 +12,8 @@ uses examples from the `Thumbs XBlock`_ that is installed with the XBlock SDK.
   
    setup
    python
-   stylesheets
    html
    javascript
+   stylesheets
+
+.. include:: ../links.rst

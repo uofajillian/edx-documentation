@@ -1,9 +1,11 @@
+.. _The XBlock Python File:
+
 #######################
 The XBlock Python File
 #######################
 
 This section of the tutorial walks through the `thumbs.py`_ file that is part
-of the `Thumbs XBlock`_ in the XBlock SDK.
+of the Thumbs XBlock in the XBlock SDK.
 
 .. contents:: Section Contents:
  :local:
@@ -21,7 +23,7 @@ The ``thumbs.py`` file defines three fields for the XBlock in the
 Note the following details about the fields in the Thumbs XBlock.
 
 * ``upvotes`` and ``downvotes`` have the scope ``Scope.user_state_summary``.
-  This indicates that the data in these fields are specific to the block and
+  This indicates that the data in these fields are specific to the XBlock and
   the same for all users.
 
 * ``voted`` has the scope ``Scope.user_state``. This indicates that the data in
@@ -42,7 +44,7 @@ The student view composes and returns the fragment from static HTML,
 JavaScript, and CSS files. That fragment is displayed to students in a web
 page.
 
-Note the following details student view.
+Note the following details about student view.
 
 * The static HTML is added when the fragment is initialized.
 
@@ -60,5 +62,28 @@ Note the following details student view.
   .. code-block:: python
 
      frag.initialize_js('ThumbsBlock')
+
+**************************
+Thumb XBlock Vote Handler
+**************************
+
+The ``thumbs.py`` file defines a handler that adds a user's vote to the XBlock.
+
+.. include:: ../reusable/code_thumbs_vote_handler.rst
+
+Note the following details about the vote handler.
+
+* The ``upvotes`` or ``downvotes`` fields are updated based on the user's vote.
+
+* The ``voted`` field is set to ``True`` for the user.
+  
+* The updated ``upvotes`` and ``downvotes`` fields are returned.
+  
+**********************************
+Thumb XBlock Workbench Scenarios
+**********************************
+
+TBP
+
 
 .. include:: ../links.rst

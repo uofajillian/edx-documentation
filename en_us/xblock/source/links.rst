@@ -17,3 +17,5 @@
 .. _1.js: https://github.com/edx/xblock-sdk/blob/master/workbench/static/workbench/js/runtime/1.js
 
 .. _Problem XBlock: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/basic/problem.py
+
+.. _thumbs.html:  https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/html/thumbs.html
