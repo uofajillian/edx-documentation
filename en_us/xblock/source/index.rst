@@ -6,6 +6,7 @@ EdX XBlock Tutorial
     :numbered:
     :maxdepth: 2
 
+    front_matter/index
     getting_started/index
     sdk/index
     anatomy/index

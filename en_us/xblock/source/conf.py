@@ -55,7 +55,7 @@ if on_rtd:
     }
 
 # General information about the project.
-project = u'edX XBlock Tutorial'
+project = u'EdX XBlock Tutorial'
 copyright = u'2015, edX'
 
 # The short X.Y version.
