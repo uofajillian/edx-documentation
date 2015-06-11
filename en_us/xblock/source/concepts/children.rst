@@ -1,7 +1,8 @@
+.. _XBlock Children:
+
 ####################
 XBlock Children
 ####################
-
 
 An XBlock can have child XBlocks. 
 

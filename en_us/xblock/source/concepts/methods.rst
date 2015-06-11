@@ -11,6 +11,8 @@ XBlock.
  :local:
  :depth: 1
    
+.. _View Methods:
+
 ***************
 View Methods
 ***************
@@ -32,10 +34,11 @@ student view.
 
 .. include:: ../reusable/code_thumbs_student_view.rst
 
-
 Although view methods typically produce HTML-based renderings, they can be used
 for other purposes. You must ensure that the runtime description of each view
 is clear about what return type is expected and how it will be used.
+
+.. _Handler Methods:
 
 ***************
 Handler Methods

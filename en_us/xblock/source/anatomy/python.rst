@@ -4,8 +4,12 @@
 The XBlock Python File
 #######################
 
-This section of the tutorial walks through the `thumbs.py`_ file that is part
-of the Thumbs XBlock in the XBlock SDK.
+This section of the tutorial walks through the Python file, `thumbs.py`_, for
+the Thumbs XBlock example in the XBlock SDK.
+
+In the XBlock Python file, you define :ref:`fields <XBlock Fields>`,
+:ref:`views <View Methods>`, :ref:`handlers <Handler Methods>`, and workbench
+scenarios.
 
 .. contents:: Section Contents:
  :local:
@@ -57,11 +61,13 @@ Note the following details about student view.
    ``add_javascript()`` and ``add_css`` methods.
 
 * The JavaScript in the fragment must be initialized using the name of the
-  XBlock class.
+  XBlock class. The name also maps to the function that initializes the XBlock in the :ref:JavaScript file <The XBlock JavaScript File>.
 
   .. code-block:: python
 
      frag.initialize_js('ThumbsBlock')
+
+For more informaiton, see :ref:`Handler Methods`.
 
 **************************
 Thumb XBlock Vote Handler
@@ -78,6 +84,8 @@ Note the following details about the vote handler.
 * The ``voted`` field is set to ``True`` for the user.
   
 * The updated ``upvotes`` and ``downvotes`` fields are returned.
+
+For more informaiton, see :ref:`View Methods`.
   
 **********************************
 Thumb XBlock Workbench Scenarios

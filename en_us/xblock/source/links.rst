@@ -8,9 +8,9 @@
 
 .. _XBlock SDK: https://github.com/edx/xblock-sdk
 
-.. _Thumbs.py: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/thumbs.py
+.. _thumbs.py: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/thumbs.py
 
-.. _Thumbs.js: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/js/src/thumbs.js
+.. _thumbs.js: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/js/src/thumbs.js
 
 .. _Thumbs XBlock:  https://github.com/edx/xblock-sdk/tree/master/sample_xblocks/thumbs
 
@@ -18,4 +18,7 @@
 
 .. _Problem XBlock: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/basic/problem.py
 
-.. _thumbs.html:  https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/html/thumbs.html
+.. _thumbs.html: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/html/thumbs.html
+
+.. _thumbs.css: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/css/thumbs.css
+
