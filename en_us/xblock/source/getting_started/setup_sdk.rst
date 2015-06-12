@@ -31,7 +31,7 @@ your XBlock. You complete these steps in the command prompt.
       virtualenv my_xblock_development
 
 #. When the virtual environment is created, go to the ``my_xblock_development``
-   directory at the command prompt, and then run the following command.
+   directory.
 
    .. code-block:: bash
 
