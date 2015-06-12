@@ -26,7 +26,7 @@ file in the XBlock SDK includes three fields.
 
 When you initialize an XBlock field, you define three parameters.
 
-* ``help``: A help string for the field that can be used in an applicaton such
+* ``help``: A help string for the field that can be used in an application such
   as edX Studio.
 
 * ``default``: The default value for the field.
@@ -48,7 +48,6 @@ the scope ``user_state``.
 
     voted = Boolean(help="Has this student voted?", default=False, 
         scope=Scope.user_state)
-
 
 ===========
 User Scope
@@ -191,7 +190,6 @@ To initialize field values, use one of the following alternatives
 
 * Run the logic to set the default field value in the view instead of the
   ``init`` method.
-
 
 ***************
 Fields and OLX

@@ -8,5 +8,4 @@ Testing an XBlock with the XBlock SDK
  :local:
  :depth: 1
 
-
 .. include:: ../links.rst

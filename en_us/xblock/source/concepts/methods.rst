@@ -45,14 +45,14 @@ Handler Methods
 ***************
 
 XBlock handler methods are Python methods invoked by AJAX calls from the user's
-browswer. Handler methods accept an HTTP request and return an HTTP response.
+browser. Handler methods accept an HTTP request and return an HTTP response.
 
 An XBlock can have any number of handler methods. For example, a problem XBlock
 might contain ``submit`` and ``show_answer`` handler methods.
 
 Each handler method has a specific name that is mapped to from specific URLs by
 the runtime. The runtime provides a mapping from handler names to specific URLs
-so that the XBlock Javascript code can make requests to its handlers. Handlers
+so that the XBlock JavaScript code can make requests to its handlers. Handlers
 can be used with ``GET`` and ``POST`` requests.
 
 In the following example, the Thumbs sample XBlock in the XBlock SDK defines a
@@ -83,3 +83,5 @@ handler for voting.
         self.voted = True
 
         return {'up': self.upvotes, 'down': self.downvotes}
+
+.. include:: ../links.rst

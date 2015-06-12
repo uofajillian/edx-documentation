@@ -48,4 +48,3 @@ the ``XBlock SDK`` directory. For more information about the XBlock files, see
 :ref:`Anatomy of an XBlock`.
 
 .. LIST FILES
-

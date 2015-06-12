@@ -18,7 +18,7 @@ This section describes how to get started with the XBlock SDK.
 Create the SQLite Database
 **************************
 
-Befoer running the XBlock SDK the first time, you must create the SQLite
+Before running the XBlock SDK the first time, you must create the SQLite
 database.
 
 In the ``xblock-sdk`` directory, run the following command to create the

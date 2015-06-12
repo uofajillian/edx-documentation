@@ -7,7 +7,7 @@ Set Up the XBlock Software Development Kit
 Before you continue, make sure that you're familiar with the subjects in the 
 :ref:`Install XBlock Prerequisites` section.
 
-When you have installed all prerequisities, you are ready to set up the `XBlock
+When you have installed all prerequisites, you are ready to set up the `XBlock
 SDK`_ in a virtual environment. To do this, complete the following steps.
 
 .. contents:: Section Contents:

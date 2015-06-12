@@ -22,3 +22,6 @@
 
 .. _thumbs.css: https://github.com/edx/xblock-sdk/blob/master/sample_xblocks/thumbs/static/css/thumbs.css
 
+.. _Google Drive: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_docs.html
+
+.. _Open Response Assessments: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/index.html

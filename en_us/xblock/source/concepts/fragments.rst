@@ -24,7 +24,7 @@ Content
 =========
 
 Content in a fragment is typically HTML, though it can be of an arbitrary
-mimetype. Each fragment only has a single content value.
+mime-type. Each fragment only has a single content value.
 
 ==========
 JavaScript
@@ -37,16 +37,17 @@ source code.
 When fragments are composed, external JavaScript links will are made unique, so
 that files are not loaded multiple times.
 
-Javascript Initializer
+JavaScript Initializer
 ***********************
 
-The JavaScript specified for a fragment can also specify a function to be called when that fragment is rendered on the page. 
+The JavaScript specified for a fragment can also specify a function to be
+called when that fragment is rendered on the page.
 
 To DOM element containing all of the content in the fragment is passed to this
 function, which then executes any code needed to make that fragment
 operational.
 
-The JavaScript view is also passed a Javascript runtime object that contains
+The JavaScript view is also passed a JavaScript runtime object that contains
 a set of functions to generate links back to the XBlock's handlers and views
 on the runtime server.
 
@@ -66,8 +67,8 @@ Fragments and XBlock Children
 
 Because XBlocks are nested hierarchically, a single XBlock view might require
 collecting renderings from each of its children, then composing them together.
-The parent XBlock view must handle composing its childrens' content together to
-create the parent content. 
+The parent XBlock view must handle composing its children's content together
+to create the parent content.
 
 The fragment system has utilities for composing children’s resources together
 into the parent.
@@ -86,9 +87,10 @@ CSS strings generated from the XBlock's static files.
 
 .. include:: ../reusable/code_thumbs_student_view.rst
 
-
 ********************
 Caching Fragments
 ********************
 
 TBP
+
+.. include:: ../links.rst
