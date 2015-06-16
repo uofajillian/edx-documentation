@@ -16,6 +16,10 @@ it in the XBlock SDK.
 
 .. include:: ../reusable/install_xblock.rst
 
+.. include:: ../reusable/create_db.rst
+
+.. include:: ../reusable/run_server.rst
+
 ******************
 Next Steps
 ******************

@@ -1,3 +1,5 @@
+.. _XBlock Concepts:
+
 ####################
 XBlock Concepts
 ####################

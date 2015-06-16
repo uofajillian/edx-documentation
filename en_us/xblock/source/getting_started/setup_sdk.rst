@@ -14,6 +14,8 @@ SDK`_ in a virtual environment. To do this, complete the following steps.
  :local:
  :depth: 1
 
+.. _Create and Activate the Virtual Environment:
+
 ********************************************
 Create and Activate the Virtual Environment
 ********************************************

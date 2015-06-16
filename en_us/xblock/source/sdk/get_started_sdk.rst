@@ -14,19 +14,9 @@ This section describes how to get started with the XBlock SDK.
 
 .. include:: ../reusable/install_xblock.rst
 
-**************************
-Create the SQLite Database
-**************************
+.. include:: ../reusable/create_db.rst
 
-Before running the XBlock SDK the first time, you must create the SQLite
-database.
-
-In the ``xblock-sdk`` directory, run the following command to create the
-database.
-
-   .. code-block:: bash
-
-      python manage.py syncdb
+.. include:: ../reusable/run_server.rst
 
 **************************
 Run the XBlock SDK Server
