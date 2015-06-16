@@ -31,7 +31,7 @@ Note the following details about the fields in the Thumbs XBlock.
   the same for all users.
 
 * ``voted`` has the scope ``Scope.user_state``. This indicates that the data in
-  this field applies to the block and to the specific user.
+  this field applies to the XBlock and to the specific user.
 
 For more information, see :ref:`XBlock Fields`.  
 
@@ -67,7 +67,7 @@ Note the following details about student view.
 
      frag.initialize_js('ThumbsBlock')
 
-For more informaiton, see :ref:`Handler Methods`.
+For more informaiton, see :ref:`View Methods`.
 
 **************************
 Thumb XBlock Vote Handler
@@ -85,7 +85,7 @@ Note the following details about the vote handler.
   
 * The updated ``upvotes`` and ``downvotes`` fields are returned.
 
-For more informaiton, see :ref:`View Methods`.
+For more informaiton, see :ref:`Handler Methods`.
   
 **********************************
 Thumb XBlock Workbench Scenarios

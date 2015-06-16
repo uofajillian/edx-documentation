@@ -34,6 +34,8 @@ When you initialize an XBlock field, you define three parameters.
 * ``scope``:  The scope of the field.  For more information, see the next
   section.
 
+.. _Field Scope:
+
 ***********
 Field Scope
 ***********

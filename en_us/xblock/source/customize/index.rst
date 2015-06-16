@@ -16,9 +16,9 @@ components of an XBlock.
 .. toctree::
    :maxdepth: 2
   
-   python
-   html
-   javascript
-   stylesheets
+   custom-python
+   custom-html
+   custom-javascript
+   custom-stylesheets
 
 .. include:: ../links.rst
