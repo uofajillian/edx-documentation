@@ -356,6 +356,42 @@ two attachments: an invoice and a .csv file. The .csv file contains only the
 enrollment codes and their associated URLs. It does not contain additional
 information about your course or the transaction.
 
+Change the Default Email
+**************************
+
+When you create enrollment codes, the system automatically sends a
+confirmation email message to the purchasing organization. You can change the
+default confirmation message according to your organization. 
+
+.. note:: To change the default confirmation email, your organization must 
+ be using a custom theme. For information about how to add a custom theme to
+ your Open edX instance, see :ref:`Theme Authoring <https://github.com
+ /Stanford-Online/edx-theme>`.
+
+To change the default email, follow these steps.
+
+#. Locate the following files in your Open edX repository.
+
+  * **registration_codes_sale_email.txt**: The confirmation email to send to the
+    purchasing organization. This email can include a sample message that the
+    purchasing organization can use to distribute enrollment codes to individual
+    learners.
+  * **registration_codes_sale_invoice_attachment.txt**: The invoice for the
+    purchasing organization. The invoice can include payment instructions.
+  * **order_confirmation_email.txt**: The confirmation email to send to the
+    purchasing organization.
+
+#. Copy these files into the /templates/emails folder in your theme
+   repository.
+
+#. Make any changes that you want to make, and then save your changes.
+
+The files in your theme repository override the files in your Open edX
+repository. When you create enrollment codes, the system sends the email
+message from the /templates/emails folder in your theme repository.
+
+
+
 .. _Manage Enrollment Codes:
 
 =======================================
