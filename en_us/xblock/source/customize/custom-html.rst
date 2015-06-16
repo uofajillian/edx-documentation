@@ -69,8 +69,7 @@ matches the code in the Thumbs XBlock.
 Next Step
 **********************************
 
-When you have customized ``myxblock.html``, you must :ref:` customize the
+When you have customized ``myxblock.html``, you must :ref:`customize the
 XBlock JavaScript file<Customize myxblock.js>`.
-
 
 .. include:: ../links.rst

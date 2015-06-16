@@ -70,7 +70,7 @@ matches the code in the Thumbs XBlock.
 Next Step
 **********************************
 
-When you have customized ``myxblock.js``, you must :ref:` customize the XBlock
+When you have customized ``myxblock.js``, you must :ref:`customize the XBlock
 CSS file<Customize myxblock.css>`.
 
 

@@ -151,7 +151,7 @@ the handler in the Thumbs XBlock.
 Next Step
 **********************************
 
-When you have customized ``myxblock.py``, you must :ref:` customize the XBlock HTML file<Customize myxblock.html>`.
-
+When you have customized ``myxblock.py``, you must :ref:`customize the XBlock
+HTML file<Customize myxblock.html>`.
 
 .. include:: ../links.rst
