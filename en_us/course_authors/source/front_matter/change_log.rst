@@ -12,8 +12,11 @@ June 2015
 
    * - Date
      - Change
+   * - 30 June 2015
+     - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
    * - 22 Jun 2015
-     - Updated the :ref:`Accessibility Best Practices for Course Content Development` section.
+     - Updated the :ref:`Accessibility Best Practices for Course Content
+       Development` section.
    * - 10 Jun 2015
      - Added the :ref:`Adding a Pre-Roll Video` section.
    * - 
@@ -402,7 +405,7 @@ July 2014
    * - 07/15/14
      - Added the :ref:`Discussions for Students and Staff` chapter.
    * - 07/11/14
-     - Added :ref:`Track Student Activity` to the :ref:`Student Data`
+     - Added Track Student Activity to the :ref:`Student Data`
        chapter.
    * - 07/10/14
      - Updated the :ref:`Discussions` chapter to add an
@@ -411,8 +414,6 @@ July 2014
    * - 07/01/14
      - Updated :ref:`Scheduling Your Course` to specify when students can earn
        and access certificates.
-   
-
 
 ***********
 June 2014

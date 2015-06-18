@@ -127,12 +127,20 @@ General Exercises and Tools
        upload. Open response assessments include self assessment and peer
        assessment.
      - Full support  
+   * - .. image:: ../../../shared/building_and_running_chapters/Images/poll_tool.png
+          :width: 100
+          :alt: Poll tool
+     - :ref:`Poll Tool`
+     - You can include polls in your course to gather learners' opinions on
+       various questions. You can use the Poll Tool in Studio.
+     - Full support 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/PollExample.png
           :width: 100
           :alt: Example poll
      - :ref:`Poll`
      - You can run polls in your course so that your students can share
-       opinions on different questions.
+       opinions on different questions. You can use this type of poll only in
+       OLX, not Studio.
      - Provisional support  
    * - .. image:: ../../../shared/building_and_running_chapters/Images/ProblemWithAdaptiveHintExample.png
           :width: 100
@@ -150,9 +158,13 @@ General Exercises and Tools
      - If you have an problem that is already written in LaTeX, you can use
        this problem type to easily convert your code into XML.
      - No support
-
-.. Removed student notes row for now-- cannot conditionalize in tables. Currently student notes page is included in open edx, not in edx.
-
+   * - .. image:: ../../../shared/building_and_running_chapters/Images/survey.png
+          :width: 100
+          :alt: Survey tool
+     - :ref:`Survey Tool`
+     - You can include surveys in your course to collect learner responses to
+       multiple questions. You can use the Survey Tool in Studio.
+     - Full support 
    * - .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
           :width: 100
           :alt: Example text input problem
@@ -160,8 +172,7 @@ General Exercises and Tools
      - In text input problems, students enter text into a response field. The
        response can include numbers, letters, and special characters such as
        punctuation marks.
-     - Full support  
-   
+     - Full support   
    * - .. image:: ../../../shared/building_and_running_chapters/Images/WordCloudExample.png
           :width: 100
           :alt: Example word cloud

@@ -12,6 +12,8 @@ Apr-Jun 2015
 
    * - Date
      - Change
+   * - 30 June 2015
+     - Added the :ref:`Poll Tool` and :ref:`Survey Tool` sections.
    * - 22 Jun 2015
      - Updated the :ref:`Accessibility Best Practices for Course Content
        Development` section.
