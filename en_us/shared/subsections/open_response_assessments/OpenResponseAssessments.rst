@@ -4,6 +4,14 @@
 Open Response Assessments
 #########################
 
+The topics in this section provide an overview and details about open response
+assessments.
+
+.. contents::
+   :depth: 1
+   :local:
+
+
 *****************************************
 Introduction to Open Response Assessments
 *****************************************
@@ -46,6 +54,71 @@ For information about the student experience with open response assessments, see
 `Open Response Assessments <http://edx-guide-for-
 students.readthedocs.org/en/latest/SFD_ORA.html>`_ in the `edX Guide for
 Students <http://edx-guide-for-students.readthedocs.org/en/latest/index.html>`_.
+
+
+.. _Best Practices for ORA:
+
+*********************************************
+Best Practices for Open Response Assessments
+*********************************************
+
+Open response assessments can be a powerful teaching tool, but they are more
+effective in some situations than in others. In general, open response
+assessments are best suited to open ended or project-based assignments with
+subjective essay answers and discussion. For example, open response
+assessments work well in humanities assignments where learners are encouraged
+to make subjective assessments of text or images, but they might not be the
+ideal tool in chemistry assignments where there are definitively correct or
+incorrect answers to questions.
+
+Here are some suggestions and best practices for using open response
+assessments in your courses.
+
+* Make sure you have a well designed and clear rubric. Having a good rubric is
+  very important in helping to eliminate ambiguity in the peer grading
+  process.
+
+* Make ORA assignments count towards only a small percentage of the final
+  course grade, or make them ungraded.
+
+* In graded ORA assignments, consider setting the lowest possible score to a
+  number higher than zero, so that learners can earn some credit for work
+  done even if peer assessors award low grades.
+
+* Provide an ungraded practice ORA assignment prior to the first graded ORA
+  assignment in the course, so that learners can understand the peer grading
+  process and get the most out of the eventual graded ORA assignment. 
+
+* Consider using ungraded ORA assignments to generate learner interaction and
+  feedback without affecting grades.
+
+* Be wary of including too many ORA assessments in your course. Peer
+  assessments are hard work for learners, and having to perform too many peer
+  assessments can have a negative impact on learners' course completion rates.
+
+* Set the **Must Grade** number higher than the **Graded By** number to minimize
+  the chance of some learners not being graded. EdX recommends a setting such
+  as **Must Grade** = 4 and **Graded By** = 3.
+
+* In ORA assignments, set the response due date and time at least one week
+  before the peer assessment due date and time, to allow enough time for peer
+  assessments to be performed after learners have submitted their own
+  responses. If the response due time and peer assessment due time are close
+  together, and a student submits a response just before responses are due,
+  other students may not have time to perform peer assessments before peer
+  assessments are due.
+
+* In discussion forum posts, provide guidance for peer grading of ORA
+  assignments. Consider extending due dates to allow course staff to monitor
+  discussion forums for questions about and reactions to peer grading, and
+  address issues when necessary. Course staff can perform actions such as
+  :ref:`removing a student response <Remove a student response from peer
+  grading>` from peer grading, or :ref:`resetting a student's attempts
+  <Adjust_grades>` for a problem. If there are more widespread issues with
+  peer grading, course staff can reduce the weight of the peer assessment
+  within the final course grade, or allow learners to drop the lowest graded
+  assignment from their grades.
+
 
 .. _PA Elements:
 
@@ -354,19 +427,48 @@ Field Only`.
 
 .. _PA Scoring:
 
-***********************
+************************************
+How Are Open Assessments Scored?
+************************************
+
+The self assessment and peer assessment components of open assessments are
+scored differently.
+
+.. note:: Given the high level of subjectivity as well as rate of error in peer
+   assessments, edX recommends that you make ORA assignments count towards only
+   a small percentage of a course's final grade.
+
+
+=======================
+Self Assessment Scoring
+=======================
+
+Self assessments count towards the grade for the open response assessment.
+
+Self assessments are scored by criteria. Each learner rates herself on each
+criteria, using the rubric. The learner's final score on a response is the
+total number of earned points, out of the total possible points. 
+
+
+=======================
 Peer Assessment Scoring
-***********************
+=======================
 
-Peer assessments are scored by criteria. An individual criterion's score is the
-median of the scores that each peer assessor gave that criterion. For example,
-if the Ideas criterion in a peer assessment receives a 10 from one student, a 7
-from a second student, and an 8 from a third student, the Ideas criterion's
-score is 8.
+If an open response assessment includes self assessment as well as peer
+assessment, the peer assessment score does not count towards the grade.
 
-A student's final score for a peer assessment is the sum of the median scores for each individual criterion. 
+Peer assessments are scored by criteria. A number of peer assessors rate each
+learner's response by each of the required criteria. The learner's score for a
+particular criterion is the median of all scores that each peer assessor gave
+that criterion. For example, if the Ideas criterion in a peer assessment
+receives a 10 from one student, a 7 from a second student, and an 8 from a third
+student, the Ideas criterion's score is 8.
 
-For example, a response may receive the following scores from peer assessors:
+The learner's final score on a response is the sum of the median scores from all
+peer assessors for all of the required criteria.
+
+For example, a response might have received the following scores from three peer
+assessors.
 
 .. list-table::
    :widths: 25 10 10 10 10
@@ -394,7 +496,8 @@ For example, a response may receive the following scores from peer assessors:
      - 5
      - **4**
 
-To calculate the final score, add the median scores for each criterion:
+To calculate the final score for the response, add the median scores that were
+given for each criterion, as follows.
 
   **Ideas median (8/10) + Content median (8/10) + Grammar median (4/5) = final
   score (20/25)**
@@ -402,7 +505,6 @@ To calculate the final score, add the median scores for each criterion:
 .. note:: Remember that final scores are calculated by criteria, not by
    individual assessor. Therefore, the score for the response is not the median
    of the scores that each individual peer assessor gave the response.
-
 
 For information on grades for student submissions that you have cancelled and
 removed from peer assessment, refer to :ref:`Remove a student response from peer
@@ -438,6 +540,11 @@ selects an option for each of the criteria.
 
 If you include both peer and self assessments, we recommend that you include the
 peer assessment before the self assessment.
+
+.. note:: If an open response assessment includes self assessment as well as
+   peer assessment, the peer assessment score does not count towards the
+   assignment's final grade.
+
 
 .. _PA Top Responses:
 

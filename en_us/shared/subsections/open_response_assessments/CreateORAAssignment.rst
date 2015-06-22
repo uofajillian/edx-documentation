@@ -5,8 +5,7 @@ Create an Open Response Assessment Assignment
 #############################################
 
 
-Creating an open response assessment is a multi-step process:
-
+Creating an open response assessment is a multi-step process. Each step is covered in detail below.
 
 * :ref:`PA Create Component`
 * :ref:`PA Add Prompt`
@@ -16,8 +15,6 @@ Creating an open response assessment is a multi-step process:
 * :ref:`PA Specify Step Settings`
 * :ref:`PA Show Top Responses`
 * :ref:`PA Test Assignment`
-
-Each of these steps is covered in detail below.
 
 For more information about the components of an open response assessment, see
 :ref:`Open Response Assessments 2`. For information about viewing metrics and
@@ -38,6 +35,11 @@ To create the component for your open response assessment, complete these steps.
 #. Under **Add New Component**, click **Problem**, click the **Advanced** tab,
    and then click **Peer Assessment**.
 #. In the Problem component that appears, click **Edit**.
+
+.. note:: After you publish an ORA assignment, you can no longer change its
+   rubric or the point values associated with each criteria in the rubric.
+   However, you can modify due dates and the weight of the ORA assignment
+   within your grading policy after you publish an ORA assignment.
 
 
 .. _PA Add Prompt:
@@ -127,6 +129,10 @@ To add the rubric, complete these steps.
 7. Follow the instructions in steps 2-6 to add your remaining criteria. If you need to add more criteria, click **Add Criterion** at the end of the list of criteria.
 #. Include instructions for students to provide overall written feedback on their peers' responses. You can leave the default text in the **Feedback Instructions** field or replace it with your own text.
 
+.. note:: After you publish an ORA assignment, you can no longer change its
+   rubric or the point values associated with each criteria in the rubric.
+
+
 .. _PA Criteria Comment Field Only:
 
 ==========================================================
@@ -159,7 +165,18 @@ student responses, complete these steps.
 #. Next to **Response Start Date** and **Response Start Time**, enter the date and time when you want students to be able to begin submitting responses. Note that all times are in Universal Coordinated Time (UTC).
 #. Next to **Response Due Date** and **Response Due Time**, enter the date and time by which all student responses must be submitted. Note that all times are in Universal Coordinated Time (UTC).
 
-.. note:: We recommend that you set the response due date and time at least two days before the peer assessment due date and time. If the response due time and peer assessment due time are close together, and a student submits a response just before responses are due, other students may not have time to perform peer assessments before peer assessments are due.
+.. note:: Unlike other problem types, ORA assignments are not governed by the
+   subsection due date. Due dates for each ORA assignment are set in the
+   assignment's settings.
+
+.. note:: EdX recommends that you set the response due date at least one week
+   before the peer assessment due date and time, to allow enough time for peer
+   assessments to be performed after learners have submitted their own
+   responses. If the response due time and peer assessment due time are close
+   together, and a student submits a response just before responses are due,
+   other students may not have time to perform peer assessments before peer
+   assessments are due. For details, see :ref:`Best Practices for ORA`.
+
 
 .. _PA Select Assignment Steps:
 
@@ -171,7 +188,7 @@ Open response assessment assignments can include student training, peer assessme
 
 If you include a student training step, you **must** include a peer assessment step. You can also include a self assessment step. The student training step must come before both the peer assessment and the self assessment step.
 
-To add steps to the assignment:
+To add assignment steps to the assignment, follow these steps.
 
 #. In the component editor, click the **Settings** tab.
 #. Scroll down past the **Allow Image Responses** field.
@@ -226,7 +243,7 @@ For the peer assessment step, you specify the number of responses that each
 student must grade, the number of students who must grade each response, and
 start and due dates. All fields are required.
 
-To specify peer assessment settings:
+To specify peer assessment settings, follow these steps.
 
 #. Locate the **Step: Peer Assessment** heading.
 #. Next to **Must Grade**, enter the number of responses that each student must grade.
