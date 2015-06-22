@@ -25,3 +25,9 @@
 .. _Google Drive: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_docs.html
 
 .. _Open Response Assessments: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/open_response_assessments/index.html
+
+.. _Google Drive and Calendar XBlock: https://github.com/edx-solutions/xblock-google-drive
+
+.. _Google Calendar Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_calendar.html
+
+.. _Google Drive Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_docs.html
