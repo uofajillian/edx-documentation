@@ -29,7 +29,7 @@ Adding the XBlock to Courseware
 ================================
 
 When the Google Drive and Calendar XBlock is installed on the edX Platform,
-course staff can add Google documents and calendards to courseware.
+course staff can add Google documents and calendars to courseware.
 
 For example, in Studio, course staff can add and configure a Google calendar
 component.
@@ -57,7 +57,7 @@ Viewing the XBlock
 ==================
 
 When course staff use the Google Drive and Calendar XBlock, learners view
-Google documents and calendards directly in courseware.
+Google documents and calendars directly in courseware.
 
 .. image:: ../Images/google-spreadsheet.png
   :alt:  The Google Calendar in the LMS.
