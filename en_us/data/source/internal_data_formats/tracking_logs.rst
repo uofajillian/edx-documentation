@@ -2324,24 +2324,8 @@ checked.
 
 ``context`` **Member Fields**: 
 
-In addition to the :ref:`common<context>` ``context`` member fields, this
-event type also includes the following ``context`` member field.
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``module``
-     - dictionary
-     - Provides the specific problem component as part of the context. 
-       
-       Contains the member field ``display_name``, which is the string value
-       for the **Display Name** given to the problem component.
-
-.. ^^now documented as part of common context
+This event type includes the :ref:`common<context>` ``context.module`` member
+field.
 
 ``event`` **Member Fields**: 
 
@@ -2447,15 +2431,13 @@ successfully.
      - dictionary
      - Current problem state.
 
-``problem_reset``
+``problem_graded``
 *********************************
 
-The browser emits ``problem_reset`` events when a user clicks **Reset** to
-reset the answer to a problem.
+.. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
 
-.. return Logger.log('problem_reset', [_this.answers, response.contents], _this.id);
-
-**Event Source**: Browser
+The server emits a ``problem_graded`` event each time a user clicks **Check**
+for a problem and it is graded successfully.
 
 ``event`` **Member Fields**: 
 
@@ -2466,11 +2448,17 @@ reset the answer to a problem.
    * - Field
      - Type
      - Details
-   * - ``answers``
-     - string
-     - The value reset by the user. 
+   * - ``[answers, contents]``
+     - array
+     - ``answers`` provides the value checked by the user. 
+       
+       ``contents`` delivers HTML using data entered for the problem in Studio,
+       including the display name, problem text, and choices or response field
+       labels.
 
-.. ^^alphabetize
+       The array includes each problem in a problem component that has multiple
+       problems.
+
 
 ``problem_rescore``
 *********************************
@@ -2547,6 +2535,31 @@ successfully rescored.
    * - ``state``
      - dictionary
      - Current problem state. 
+
+
+``problem_reset``
+*********************************
+
+The browser emits ``problem_reset`` events when a user clicks **Reset** to
+reset the answer to a problem.
+
+.. return Logger.log('problem_reset', [_this.answers, response.contents], _this.id);
+
+**Event Source**: Browser
+
+``event`` **Member Fields**: 
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``answers``
+     - string
+     - The value reset by the user. 
+
 
 ``problem_save``
 *********************************
@@ -2657,34 +2670,6 @@ successfully.
      - string
      - ID of the problem being reset. 
 
-``show_answer`` 
-*********************************
-
-.. no sample to check
-
-The server emits ``show_answer`` events when the answer to a problem is shown. 
-
-**Event Source**: Server
-
-**History**: The original name for this event was ``showanswer``. 
-
-.. **Question** is this renaming info correct?
-
-``event`` **Member Fields**: 
-
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
-
-   * - Field
-     - Type
-     - Details
-   * - ``problem_id``
-     - string
-     - EdX ID of the problem being shown. 
-
-.. ^^alphabetize
-
 ``save_problem_fail`` 
 *********************************
 
@@ -2746,13 +2731,18 @@ successfully.
      - dictionary
      - Current problem state. 
 
-``problem_graded``
+``show_answer`` 
 *********************************
 
-.. return Logger.log('problem_graded', [_this.answers, response.contents], _this.id);
+.. no sample to check
 
-The server emits a ``problem_graded`` event each time a user clicks **Check**
-for a problem and it is graded successfully.
+The server emits ``show_answer`` events when the answer to a problem is shown. 
+
+**Event Source**: Server
+
+**History**: The original name for this event was ``showanswer``. 
+
+.. **Question** is this renaming info correct?
 
 ``event`` **Member Fields**: 
 
@@ -2763,18 +2753,9 @@ for a problem and it is graded successfully.
    * - Field
      - Type
      - Details
-   * - ``[answers, contents]``
-     - array
-     - ``answers`` provides the value checked by the user. 
-       
-       ``contents`` delivers HTML using data entered for the problem in Studio,
-       including the display name, problem text, and choices or response field
-       labels.
-
-       The array includes each problem in a problem component that has multiple
-       problems.
-
-.. ^^alphabetize
+   * - ``problem_id``
+     - string
+     - EdX ID of the problem being shown. 
 
 .. _library_events:
 
