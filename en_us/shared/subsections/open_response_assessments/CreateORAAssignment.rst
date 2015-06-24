@@ -184,15 +184,22 @@ student responses, complete these steps.
 Step 5. Select Assignment Steps
 ****************************************
 
-Open response assessment assignments can include student training, peer assessment, and self assessment steps. You can include a peer assessment step before a self assessment step and vice versa. 
+Open response assessment assignments can include student training, peer assessment, and self assessment steps. 
 
-If you include a student training step, you **must** include a peer assessment step. You can also include a self assessment step. The student training step must come before both the peer assessment and the self assessment step.
+.. note:: If you include a student training step, you must also include a peer
+   assessment step. The student training step must come before peer or self
+   assessment steps. If you include both peer and self assessment steps, edX
+   recommends that you place the peer assessment before the self assessment.
 
-To add assignment steps to the assignment, follow these steps.
+
+To add steps to the open response assignment, complete these actions.
 
 #. In the component editor, click the **Settings** tab.
-#. Scroll down past the **Allow Image Responses** field.
-#. Locate the following headings:
+
+#. Scroll down past the **Allow Image Responses** and **Allow Latex
+   Responses** fields.
+
+#. Locate the following headings.
 
    * **Step: Student Training**
    * **Step: Peer Assessment**
@@ -200,7 +207,10 @@ To add assignment steps to the assignment, follow these steps.
 
    Select the check boxes for the steps that you want the assignment to include. 
 
-#. (optional) If you want to change the order of the steps, drag the steps into the order that you want. If you include a student training step, make sure it is the first step in the assignment.
+#. (optional) To change the order of the steps, drag the steps into the order that you want. 
+
+.. note:: If you include a student training step, make sure it is the first
+   step in the assignment.
 
 .. _PA Specify Step Settings:
 
@@ -231,9 +241,10 @@ To add and score student training responses:
 
 #. Under **Step: Student Training**, locate the first **Scored Response** section.
 #. In the **Response** field, enter the text of your example response.
-#. Under **Response Score**, select the option that you want for each criterion.
+#. Under **Response Score**, for each criterion, select the option that you want.
 
 For more information, see :ref:`PA Student Training Assessments`.
+
 
 ============================
 Peer Assessment
@@ -250,6 +261,7 @@ To specify peer assessment settings, follow these steps.
 #. Next to **Graded By**, enter the number of students that must grade each response.
 #. Next to **Start Date** and **Start Time**, enter the date and time when students can begin assessing their peers' responses. All times are in Universal Coordinated Time (UTC).
 #. Next to **Due Date** and **Due Time**, enter the date and time by which all peer assessments must be complete. All times are in UTC.
+
 
 ============================
 Self Assessment

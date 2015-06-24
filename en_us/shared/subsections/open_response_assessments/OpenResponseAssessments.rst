@@ -22,12 +22,13 @@ responses to questions, then each student and the student's peers compare the
 responses to a rubric that you create. You can also allow students to upload an
 image to accompany a text response.
 
-Open response assessments include peer assessments and self assessments. In peer
-assessments, students compare their peers' responses to a rubric that you
-create. In self assessments, students compare their own responses to the rubric.
+Open response assessments can include both peer assessments and self
+assessments. In peer assessments, students compare their peers' responses to a
+rubric that you create. In self assessments, students compare their own
+responses to the rubric.
 
-In open response assessments, students usually only see their own responses and
-any peer responses they assess. You can also allow students to see the top-
+In open response assessments, students usually only see their own responses
+and any peer responses they assess. You can also allow students to see the top
 scoring responses that their peers have submitted. For more information, see
 :ref:`PA Top Responses`.
 
@@ -39,13 +40,15 @@ scoring responses that their peers have submitted. For more information, see
    information about cohorts and creating cohort-specific courseware, see
    :ref:`Cohorts Overview` and :ref:`Cohorted Courseware Overview`.
 
-For more information about creating open response assessments, including step-
-by-step instructions, see the following sections.
+For more information about creating open response assessments, including step
+by step instructions, see the following sections.
 
+* :ref:`Best Practices for ORA`
 * :ref:`PA Elements`
 * :ref:`PA Scoring`
 * :ref:`PA Create an ORA Assignment`
 * :ref:`Accessing ORA Assignment Information`
+
   
 For information about viewing metrics and student responses for released open
 response assessments, see :ref:`Accessing ORA Assignment Information`.  
@@ -64,7 +67,7 @@ Best Practices for Open Response Assessments
 
 Open response assessments can be a powerful teaching tool, but they are more
 effective in some situations than in others. In general, open response
-assessments are best suited to open ended or project-based assignments with
+assessments are best suited to open-ended or project-based assignments with
 subjective essay answers and discussion. For example, open response
 assessments work well in humanities assignments where learners are encouraged
 to make subjective assessments of text or images, but they might not be the
@@ -74,16 +77,16 @@ incorrect answers to questions.
 Here are some suggestions and best practices for using open response
 assessments in your courses.
 
-* Make sure you have a well designed and clear rubric. Having a good rubric is
-  very important in helping to eliminate ambiguity in the peer grading
-  process.
+* Make sure you have a well designed and clear :ref:`rubric <PA Rubric>`.
+  Having a good rubric is very important in helping to eliminate ambiguity in
+  the peer grading process.
 
 * Make ORA assignments count towards only a small percentage of the final
   course grade, or make them ungraded.
 
 * In graded ORA assignments, consider setting the lowest possible score to a
-  number higher than zero, so that learners can earn some credit for work
-  done even if peer assessors award low grades.
+  number higher than zero, so that learners can earn some credit for the work
+  they have done, even if their peer assessors give them low grades.
 
 * Provide an ungraded practice ORA assignment prior to the first graded ORA
   assignment in the course, so that learners can understand the peer grading
@@ -92,9 +95,10 @@ assessments in your courses.
 * Consider using ungraded ORA assignments to generate learner interaction and
   feedback without affecting grades.
 
-* Be wary of including too many ORA assessments in your course. Peer
-  assessments are hard work for learners, and having to perform too many peer
-  assessments can have a negative impact on learners' course completion rates.
+* Be wary of including too many ORA assessments in your course. :ref:`Peer
+  assessments <Peer Assessment Step>` are hard work for learners, and having
+  to perform too many peer assessments can have a negative impact on learners'
+  course completion rates.
 
 * Set the **Must Grade** number higher than the **Graded By** number to minimize
   the chance of some learners not being graded. EdX recommends a setting such
@@ -109,33 +113,38 @@ assessments in your courses.
   assessments are due.
 
 * In discussion forum posts, provide guidance for peer grading of ORA
-  assignments. Consider extending due dates to allow course staff to monitor
-  discussion forums for questions about and reactions to peer grading, and
-  address issues when necessary. Course staff can perform actions such as
-  :ref:`removing a student response <Remove a student response from peer
-  grading>` from peer grading, or :ref:`resetting a student's attempts
-  <Adjust_grades>` for a problem. If there are more widespread issues with
-  peer grading, course staff can reduce the weight of the peer assessment
-  within the final course grade, or allow learners to drop the lowest graded
-  assignment from their grades.
+  assignments.
+
+* Consider extending due dates to allow course staff to monitor discussion
+  forums for questions about or reactions to peer grading, and to address
+  issues when necessary.
+
+  If learners raise concerns about ORA assignments in discussion forums,
+  course staff have the ability to perform actions such as :ref:`removing a
+  student response <Remove a student response from peer grading>` from peer
+  grading, or :ref:`resetting a student's attempts <Adjust_grades>` for a
+  problem. If there are more widespread issues with peer grading, course staff
+  can reduce the weight of the peer assessment within the final course grade,
+  or allow learners to drop the lowest graded assignment from their grades.
 
 
 .. _PA Elements:
 
-==========================================
+******************************************
 Elements of an Open Response Assessment
-==========================================
+******************************************
 
 When you create an open response assessment assignment, you include several
 elements:
 
-* One or more prompts, or questions.
+* One or more :ref:`prompts <PA Prompts>`, or questions.
 
-* The rubric. One rubric is used to grade all the prompts in the
+* The :ref:`rubric <PA Rubric>`. One rubric is used to grade all the prompts in the
   assessment.
   
-* One or more assessment steps. Assignments can include a student training step,
-  a peer assessment step, and a self assessment step.
+* One or more :ref:`assessment steps <PA Assessment Steps>`. Assignments can
+  include a student training step, a peer assessment step, and a self
+  assessment step.
 
 .. note:: If you include a student training step, you must also include a peer
    assessment step. The student training step must come first, before the peer
@@ -144,9 +153,11 @@ elements:
 For step-by-step instructions for creating an open response assessment, see
 :ref:`PA Create an ORA Assignment`.
 
-*******
+.. _PA Prompts:
+
+=======
 Prompts
-*******
+=======
 
 Each **prompt**, or question, that you want your students to answer, appears
 near the top of the page, followed by a field where the student enters a
@@ -169,17 +180,14 @@ approximate number of words or sentences that their response should have.
 For more information, see :ref:`PA Add Prompt`.
 
 
-==========================================
-Asking Students to Upload Images
-==========================================
-
+Asking Students to Upload Images in Responses
+***********************************************
 
 In open response assessments, you can ask your students to upload an image as
 part of their response. If you do this, however, keep the following points in
 mind.
 
-* Currently, you cannot require your students to upload an image. You can only
-  allow it.
+* You cannot require your students to upload an image. You can only allow it.
 
 * All responses must include some text. Students cannot submit a response that
   contains only an image.
@@ -192,9 +200,9 @@ mind.
 
 .. _PA Rubric:
 
-******
+=======
 Rubric
-******
+=======
 
 Your assignment must include a **rubric** that you design. The same rubric is
 used for peer and self assessments, and the rubric appears when students begin
@@ -280,12 +288,15 @@ points possible)
 
 For more information, see :ref:`PA Add Rubric`.
 
-************************
-Assessment Steps
-************************
 
-In your assignment, you'll also specify the **assessment steps**. You can set
-the assignment to include a student training step, a peer assessment step, and a
+.. _PA Assessment Steps:
+
+=================
+Assessment Steps
+=================
+
+In your assignment, you also specify the **assessment steps**. You can set the
+assignment to include a student training step, a peer assessment step, and a
 self assessment step.
 
 You can see the type and order of the assessments when you look at the
@@ -294,17 +305,21 @@ complete a student training step ("Learn to Assess Responses"), complete peer
 assessments on other students' responses ("Assess Peers"), and then complete
 self assessments ("Assess Your Response").
 
+.. note:: If you include a student training step, you must also include a peer
+   assessment step. The student training step must come before peer or self
+   assessment steps. If you include both peer and self assessment steps, edX
+   recommends that you place the peer assessment before the self assessment.
+
 .. image:: ../../../../shared/building_and_running_chapters/Images/PA_AsmtWithResponse.png
   :alt: Image of peer assessment with assessment steps and status labeled
   :width: 600
 
-.. note:: If you include a student training step, you must also include a peer assessment step. The student training step must come before peer and self assessment steps.
 
 .. _PA Student Training Assessments:
 
-========================
+
 Student Training Step
-========================
+*****************************
 
 When you create a peer assessment assignment, you can include one or more
 student training assessments to help students learn to perform their own
@@ -368,26 +383,27 @@ scoring for all criteria matches the instructor's scoring.
 
 For more information, see :ref:`PA Student Training Step`.
 
+.. _Peer Assessment Step:
 
-=====================
 Peer Assessment Step
-=====================
+*****************************
 
 In the peer assessment step, students review other students' responses. For each
 response, they select an option for each criterion in your rubric based on the
 response. Students can also provide text feedback, or comments, on each
 response.
 
+If you include both peer and self assessment steps, edX recommends that you
+place the peer assessment before the self assessment.
 
-************************************
+
 Number of Responses and Assessments
 ************************************
 
-When you specify a peer assessment step, you specify the **number of responses**
-that each student has to assess and the **number of peer assessments** that each
-response has to receive.
+When you specify a peer assessment step, you specify the number of responses that each student has to assess (**Must Grade**) and the number of peer assessments that each
+response has to receive (**Graded By**) before they can complete the assignment.
 
-.. note:: Because some students might submit a response without completing any
+.. note:: Because some students might submit a response without performing any
    peer assessments, some responses might not receive the required number of
    assessments. To increase the chance that all responses receive a sufficient
    number of assessments, you must set the number of responses that students
@@ -405,7 +421,6 @@ receives.
 
 .. _Feedback Options:
 
-****************
 Feedback Options
 ****************
 
@@ -425,44 +440,72 @@ For more information, see :ref:`PA Add Rubric` and :ref:`PA Criteria Comment
 Field Only`.
 
 
+Assessing Additional Responses
+********************************
+
+Students can assess more than the required number of responses. After a student
+completes the peer assessment step, the step "collapses" so that only the
+**Assess Peers** heading is visible.
+
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_PAHeadingCollapsed.png
+   :width: 500
+   :alt: The peer assessment step with just the heading visible
+
+If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
+
+.. image:: ../../../../shared/building_and_running_chapters/Images/PA_ContinueGrading.png
+   :width: 500
+   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
+
+
+=====================
+Self Assessment Step
+=====================
+
+In self assessments, the student sees his response followed by your rubric. As
+with peer assessments, the student compares the rubric to his response and
+selects an option for each of the criteria.
+
+If you include both peer and self assessments, we recommend that you include the
+peer assessment before the self assessment.
+
+
 .. _PA Scoring:
 
-************************************
-How Are Open Assessments Scored?
-************************************
+******************************************
+How Are Open Response Assessments Scored?
+******************************************
 
-The self assessment and peer assessment components of open assessments are
-scored differently.
+In open response assessments that contain both peer assessment and self
+assessments, only the peer assessment score counts towards the assignment's
+final grade. The self assessment score is not taken into account. There is no
+option for weighting the peer and self assessment portions independently.
+
+In open response assessments that include only self assessments, the
+assignment's final grade is equivalent to the self assessment score.
 
 .. note:: Given the high level of subjectivity as well as rate of error in peer
    assessments, edX recommends that you make ORA assignments count towards only
    a small percentage of a course's final grade.
 
-
-=======================
-Self Assessment Scoring
-=======================
-
-Self assessments count towards the grade for the open response assessment.
-
-Self assessments are scored by criteria. Each learner rates herself on each
-criteria, using the rubric. The learner's final score on a response is the
-total number of earned points, out of the total possible points. 
+The following sections detail how the scores for peer assessments and self
+assessments are calculated.
 
 
 =======================
 Peer Assessment Scoring
 =======================
 
-If an open response assessment includes self assessment as well as peer
-assessment, the peer assessment score does not count towards the grade.
+.. note:: If an open response assessment includes both peer and self
+   assessments, only the peer assessment score counts towards the assignment's
+   final grade. The self assessment score is not taken into account.
 
-Peer assessments are scored by criteria. A number of peer assessors rate each
+Peer assessments are scored by criteria. A number of peer assessors rate a
 learner's response by each of the required criteria. The learner's score for a
 particular criterion is the median of all scores that each peer assessor gave
 that criterion. For example, if the Ideas criterion in a peer assessment
-receives a 10 from one student, a 7 from a second student, and an 8 from a third
-student, the Ideas criterion's score is 8.
+receives a 10 from one student, a 7 from a second student, and an 8 from a
+third student, the Ideas criterion's score is 8.
 
 The learner's final score on a response is the sum of the median scores from all
 peer assessors for all of the required criteria.
@@ -511,39 +554,21 @@ removed from peer assessment, refer to :ref:`Remove a student response from peer
 grading`.
 
 
-********************************
-Assessing Additional Responses
-********************************
+=======================
+Self Assessment Scoring
+=======================
 
-Students can assess more than the required number of responses. After a student
-completes the peer assessment step, the step "collapses" so that just the
-**Assess Peers** heading is visible.
+.. note:: If an open response assessment includes both peer and self
+   assessments, the self assessment score does not count towards the final
+   grade.
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_PAHeadingCollapsed.png
-   :width: 500
-   :alt: The peer assessment step with just the heading visible
+If an open response assessment includes only self assessments, then the
+assignment's final grade is equivalent to the self assessment score.
 
-If the student clicks the **Assess Peers** heading, the step expands. The student can then click **Continue Assessing Peers**.
+Self assessments are scored by criteria. Each learner rates herself on each
+criteria, using the rubric. The learner's final score on a response is the
+total number of earned points, out of the total possible points. 
 
-.. image:: ../../../../shared/building_and_running_chapters/Images/PA_ContinueGrading.png
-   :width: 500
-   :alt: The peer assessment step expanded so that "Continue Assessing Peers" is visible
-
-
-=====================
-Self Assessment Step
-=====================
-
-In self assessments, the student sees his response followed by your rubric. As
-with peer assessments, the student compares the rubric to his response and
-selects an option for each of the criteria.
-
-If you include both peer and self assessments, we recommend that you include the
-peer assessment before the self assessment.
-
-.. note:: If an open response assessment includes self assessment as well as
-   peer assessment, the peer assessment score does not count towards the
-   assignment's final grade.
 
 
 .. _PA Top Responses:
