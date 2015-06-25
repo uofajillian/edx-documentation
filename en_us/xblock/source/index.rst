@@ -10,8 +10,8 @@ EdX XBlock Tutorial
     overview/index
     getting_started/index
     sdk/index
-    customize/index
     anatomy/index
+    customize/index
     concepts/index
-    deploy/index
+    edx_platform/index
     

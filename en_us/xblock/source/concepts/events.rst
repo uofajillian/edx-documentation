@@ -1,8 +1,8 @@
-.. _XBlock, Events, and Grading:
+.. _XBlocks, Events, and Grading:
 
-###########################
-XBlock, Events, and Grading
-###########################
+#############################
+XBlocks, Events, and Grading
+#############################
 
 Events are emitted by the server, the browser, or the mobile device to capture
 information about interactions with the courseware.

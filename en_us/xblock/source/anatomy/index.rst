@@ -11,8 +11,7 @@ The section :ref:`Customize Your XBlock` walks through the process of making the
 
 .. toctree::
    :maxdepth: 2
-  
-   setup
+
    python
    html
    javascript

@@ -1,7 +1,7 @@
-.. _Deploy Your XBlock on edX.org:
+.. _Submit Your XBlock to edx.org:
 
 ###############################
-Deploy Your XBlock on edX.org
+Submit Your XBlock to edx.org
 ###############################
 
 

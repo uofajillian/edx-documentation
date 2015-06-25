@@ -21,8 +21,12 @@ XBlock view methods are Python methods invoked by the XBlock runtime to render
 the XBlock.
 
 An XBlock can have multiple view methods. For example, an XBlock might have a
-student view for rendering in the edX LMS, and a Studio view for editing the
-XBlock. The XBlock view name to use is specified in the runtime.
+student view for rendering the XBlock for learners, and an editing view for
+rendering the XBlock to course staff. The XBlock view name to use is specified
+in the runtime.
+
+See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>`
+and :ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about the view requirements in these edX Platform XBlock runtime applications.
 
 Typically, you define a view to produce a fragment that is used to render the
 XBlock as part of a web page. Fragments are aggregated hierarchically. You can

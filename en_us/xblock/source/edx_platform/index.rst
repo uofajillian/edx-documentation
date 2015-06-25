@@ -1,11 +1,13 @@
-.. _Deploy an XBlock:
+.. _XBlocks and the edX Platform:
 
 #############################
-Deploy an XBlock
+XBlocks and the edX Platform
 #############################
 
 .. toctree::
    :maxdepth: 2
    
+   edx_studio
+   edx_lms
    devstack
    edx

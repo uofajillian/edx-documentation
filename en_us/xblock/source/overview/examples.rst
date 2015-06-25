@@ -22,7 +22,7 @@ separate Github repository. You can explore this XBlock to learn how it is
 structured and developed.
 
 You can follow the instructions to install the XBlock on your Open edX system.
-For more information, see :ref:`Deploy an XBlock`.
+For more information, see :ref:`XBlocks and the edX Platform`.
 
 ================================
 Adding the XBlock to Courseware
@@ -70,7 +70,7 @@ XBlock SDK
 The `XBlock SDK`_ that you will use in this tutorial also contains several
 example XBlocks.
 
-You will use the `Thumbs XBlock`_ in the sections :ref:`Customize Your XBlock`
+We will use the `Thumbs XBlock`_ in the sections :ref:`Customize Your XBlock`
 and :ref:`Anatomy of an XBlock`.
 
 You can explore these and other example XBlocks in the XBlock SDK.

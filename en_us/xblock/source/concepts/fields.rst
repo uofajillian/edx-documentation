@@ -231,3 +231,11 @@ example:
         maxwidth="800" 
         maxheight="450" 
     />
+
+*********************************************
+Field Requirements in the edx Platform
+*********************************************
+
+See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>` and
+:ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about field
+requirements in these applications.

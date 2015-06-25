@@ -21,8 +21,7 @@ XBlocks and the edX Platform
 
 The edX Platform uses many built in XBlocks that are available to course
 developers. For example, `Google Drive`_ and `Open Response Assessments`_ are
-both XBlocks that are imported into the edX Platform. For more information, see
-:ref:`XBlock Examples`.
+both XBlocks that are imported into the edX Platform. 
 
 EdX recognizes that the ever expanding need to provide new and innovative types
 of content. The XBlock API and XBlock SDK are available for developers to
@@ -37,18 +36,18 @@ creating and deploying XBlocks. EdX provides the `XBlock SDK`_ to support the
 creation of new XBlocks.
 
 This tutorial is meant to guide developers through the process of creating an
-XBlock, and to explain the architecture and anatomy of XBLocks.
+XBlock, and to explain the architecture and anatomy of XBlocks.
 
-Developers should also see the XBlock API documentation.
+Developers should also see the XBlock API documentation. [ADD LINK]
 
 =========================================
 XBlock Independence and Interoperability
 =========================================
 
-An XBlock must be designed to meet two goals.
+You must design your XBlock to meet two goals.
 
 * The XBlock must be independent of other XBlocks. Course staff must be able to
-  use the XBlock without it being dependent on other XBlocks.
+  use the XBlock without using other XBlocks.
 
 * The XBlock must also work together with other XBlocks. Course staff must be
   able to combine different XBlocks in flexible ways.

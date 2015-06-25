@@ -26,6 +26,8 @@ Next Steps
 
 You have now completed the Getting Started section of the XBlock tutorial. In
 the next sections, you will learn :ref:`how to use the XBlock SDK <Using the
-XBlock Software Development Kit>`.
+XBlock Software Development Kit>`, about the :ref:`anatomoy of an XBlock
+<Anatomy of an XBlock>`, and :ref:`how to customize your new XBlock <Customize
+Your XBlock>`.
 
 .. include:: ../links.rst
