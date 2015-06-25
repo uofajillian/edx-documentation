@@ -61,7 +61,7 @@ Note the following details about student view.
    ``add_javascript()`` and ``add_css`` methods.
 
 * The JavaScript in the fragment must be initialized using the name of the
-  XBlock class. The name also maps to the function that initializes the XBlock in the :ref:JavaScript file <The XBlock JavaScript File>.
+  XBlock class. The name also maps to the function that initializes the XBlock in the :ref:`JavaScript file <The XBlock JavaScript File>`.
 
   .. code-block:: python
 
@@ -86,12 +86,5 @@ Note the following details about the vote handler.
 * The updated ``upvotes`` and ``downvotes`` fields are returned.
 
 For more informaiton, see :ref:`Handler Methods`.
-  
-**********************************
-Thumb XBlock Workbench Scenarios
-**********************************
-
-TBP
-
 
 .. include:: ../links.rst

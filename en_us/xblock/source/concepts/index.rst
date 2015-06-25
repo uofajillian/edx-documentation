@@ -15,4 +15,5 @@ examples.
    fragments
    children
    runtimes
+   events
     

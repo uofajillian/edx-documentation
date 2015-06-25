@@ -55,6 +55,9 @@ the runtime. The runtime provides a mapping from handler names to specific URLs
 so that the XBlock JavaScript code can make requests to its handlers. Handlers
 can be used with ``GET`` and ``POST`` requests.
 
+Handler methods also emit events for learner interactions and grades. For more
+information, see :ref:`Publish Events in Handler Methods`.
+
 In the following example, the Thumbs sample XBlock in the XBlock SDK defines a
 handler for voting.
 

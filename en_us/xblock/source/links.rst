@@ -31,3 +31,5 @@
 .. _Google Calendar Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_calendar.html
 
 .. _Google Drive Tool: http://edx.readthedocs.org/projects/open-edx-building-and-running-a-course/en/latest/exercises_tools/google_docs.html
+
+.. _Runtime Publish Method: http://edx.readthedocs.org/projects/xblock/en/latest/api/runtime.html?highlight=grade#xblock.runtime.Runtime.publish

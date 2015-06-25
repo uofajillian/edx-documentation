@@ -60,6 +60,9 @@ Fields can relate to users in the following ways.
 * **No user**: the field data is not related to any users. For example, a field
   that contains course content is independent of users.
 
+  .. note:: The XBlock cannot modify the value of a field that is not related
+  .. to any users.
+
 * **One user**: the field data is specific to a single user. For example, the
   answer to a problem is specific to the user who submitted it.
 
@@ -68,8 +71,8 @@ Fields can relate to users in the following ways.
 
   .. note: 
     Field data related to all users is not the same as aggregate or query data.
-    The same value is shared for all users, and you cannot link associate
-    specific actions to specific users.
+    The same value is shared for all users, and you cannot associate specific
+    actions to specific users.
 
 ===========
 Block Scope
@@ -160,7 +163,7 @@ scope settings.
 Define a Custom Scope
 ======================
 
-???
+TBP
 
 ************************
 Fields and Data Storage
