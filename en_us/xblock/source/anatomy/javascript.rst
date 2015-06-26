@@ -23,8 +23,8 @@ application.
 
 Note the following details about the JavaScript file.
 
-* The function ``ThumbsBlock`` initializes the XBlock. A function to initialize
-  the XBlock is required in all XBlocks.
+* The function ``ThumbsBlock`` initializes the XBlock. A JavaScript function to
+  initialize the XBlock is required.
 
   The ``ThumbsBlock`` function maps to the contstructor in the :ref:`XBlock
   Python file <The XBlock Python File>` and provides access to its methods and
@@ -36,10 +36,10 @@ Note the following details about the JavaScript file.
 
     var handlerUrl = runtime.handlerUrl(element, 'vote');
   
-* The ``ThumbsBlock`` function sets up the Post commands to increase the up and
-  down votes in the XBlock.
+* The ``ThumbsBlock`` function includes the Post commands to increase the up
+  and down votes in the XBlock.
   
-The XBlock JavaScript code can also ause the ``children`` and ``childMap``
+The XBlock JavaScript code can also use the ``children`` and ``childMap``
 functions as needed. For more information, see :ref:`XBlock Children`.
 
 .. include:: ../links.rst

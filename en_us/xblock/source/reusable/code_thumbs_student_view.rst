@@ -9,8 +9,7 @@
         to display.
         """
 
-        # Load the HTML fragment from within the package and fill in the
-          template
+        # Load the HTML fragment from within the package and fill in the template
 
         html_str = pkg_resources.resource_string(__name__, "static/html/thumbs.html")
         frag = Fragment(unicode(html_str).format(self=self))

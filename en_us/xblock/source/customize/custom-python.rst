@@ -58,7 +58,7 @@ automatically when you created the XBlock.
 Check Fields Against the Thumbs XBlock
 =======================================
 
-After you have defined the fields, check your work agains the fields in the
+After you have defined the fields, check your work against the fields in the
 Thumbs XBlock.
 
 .. include:: ../reusable/code_thumbs_fields.rst

@@ -67,7 +67,7 @@ Note the following details about student view.
 
      frag.initialize_js('ThumbsBlock')
 
-For more informaiton, see :ref:`View Methods`.
+For more information, see :ref:`View Methods`.
 
 **************************
 Thumb XBlock Vote Handler
@@ -85,6 +85,6 @@ Note the following details about the vote handler.
   
 * The updated ``upvotes`` and ``downvotes`` fields are returned.
 
-For more informaiton, see :ref:`Handler Methods`.
+For more information, see :ref:`Handler Methods`.
 
 .. include:: ../links.rst

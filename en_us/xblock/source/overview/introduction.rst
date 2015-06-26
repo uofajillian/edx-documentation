@@ -21,7 +21,8 @@ XBlocks and the edX Platform
 
 The edX Platform uses many built in XBlocks that are available to course
 developers. For example, `Google Drive`_ and `Open Response Assessments`_ are
-both XBlocks that are imported into the edX Platform. 
+both XBlocks that are imported into the edX Platform. For more information, see
+:ref:`XBlocks and the edX Platform`.
 
 EdX recognizes that the ever expanding need to provide new and innovative types
 of content. The XBlock API and XBlock SDK are available for developers to
@@ -34,6 +35,23 @@ XBlocks for Developers
 Developers can extend the types of content available in the edX Platform by
 creating and deploying XBlocks. EdX provides the `XBlock SDK`_ to support the
 creation of new XBlocks.
+
+===================
+Prerequisites
+===================
+
+This tutorial is for developers who are new to XBlock. To use this tutorial,
+you should have basic knowledge of the following technologies.
+
+* Python
+* JavaScript
+* HTML and CSS
+* Virtual Environments
+* Git
+
+===================
+XBlock Resources
+===================
 
 This tutorial is meant to guide developers through the process of creating an
 XBlock, and to explain the architecture and anatomy of XBlocks.

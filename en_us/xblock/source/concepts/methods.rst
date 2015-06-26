@@ -25,8 +25,9 @@ student view for rendering the XBlock for learners, and an editing view for
 rendering the XBlock to course staff. The XBlock view name to use is specified
 in the runtime.
 
-See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>`
-and :ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about the view requirements in these edX Platform XBlock runtime applications.
+See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>` and
+:ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about the
+view requirements in these edX Platform XBlock runtime applications.
 
 Typically, you define a view to produce a fragment that is used to render the
 XBlock as part of a web page. Fragments are aggregated hierarchically. You can

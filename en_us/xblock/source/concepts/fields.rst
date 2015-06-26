@@ -61,7 +61,7 @@ Fields can relate to users in the following ways.
   that contains course content is independent of users.
 
   .. note:: The XBlock cannot modify the value of a field that is not related
-  .. to any users.
+    to any users.
 
 * **One user**: the field data is specific to a single user. For example, the
   answer to a problem is specific to the user who submitted it.
