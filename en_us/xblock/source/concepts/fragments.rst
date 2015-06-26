@@ -17,7 +17,7 @@ Fragment Contents
 *****************
 
 A fragment typically contains all the resources needed to display the XBlock in
-a web page, including content, and JavaScript and CSS resources.
+a web page, including content, JavaScript, and CSS resources.
 
 =========
 Content
@@ -34,7 +34,7 @@ A fragment contains the JavaScript resources necessary to run the XBlock.
 JavaScript resources can include both external files to link to, and inline
 source code.
 
-When fragments are composed, external JavaScript links will are made unique, so
+When fragments are composed, external JavaScript links are made unique, so
 that files are not loaded multiple times.
 
 JavaScript Initializer

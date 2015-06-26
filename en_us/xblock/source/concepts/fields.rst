@@ -69,10 +69,9 @@ Fields can relate to users in the following ways.
 * **All users**: the field data is common for all users. For example, the total
   number of students who answer a question is the same for all users.
 
-  .. note: 
-    Field data related to all users is not the same as aggregate or query data.
-    The same value is shared for all users, and you cannot associate specific
-    actions to specific users.
+  .. note:: Field data related to all users is not the same as aggregate or 
+    query data. The same value is shared for all users, and you cannot 
+    associate specific actions to specific users.
 
 ===========
 Block Scope
@@ -95,7 +94,7 @@ Fields can relate to XBlocks in the following ways.
 * **All**: The field data is related to all XBlocks, of all types. Any
   XBlock can access the field data.
 
-  ..note:: 
+  .. note:: 
     When you use the **All** scope, there is potential for name conflicts. If
     you have two fields of the same name with the scope **All** in different
     XBlocks types, both fields point to the same data. Therefore you should use

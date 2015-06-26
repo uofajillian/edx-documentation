@@ -23,7 +23,7 @@ the XBlock.
 An XBlock can have multiple view methods. For example, an XBlock might have a
 student view for rendering the XBlock for learners, and an editing view for
 rendering the XBlock to course staff. The XBlock view name to use is specified
-in the runtime.
+in the runtime application.
 
 See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>` and
 :ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about the

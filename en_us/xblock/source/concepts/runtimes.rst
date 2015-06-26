@@ -24,7 +24,7 @@ An XBlock runtime application must:
 * Display the HTML returned by XBlock views.
   
   .. note:: 
-    Runtime applications must document which views they call on the XBlock
+    Runtime applications must document the view names they require of XBlocks.
   
 * Bind the front-end JavaScript code to the correct DOM elements.
   

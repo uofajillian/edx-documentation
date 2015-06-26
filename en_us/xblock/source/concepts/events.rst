@@ -7,8 +7,9 @@ XBlocks, Events, and Grading
 Events are emitted by the server, the browser, or the mobile device to capture
 information about interactions with the courseware.
 
-In most cases, your XBlock must emit events. `Assigning a grade <Publish Grade
-Events>`_ is a common event.
+In most cases, your XBlock must emit events. 
+
+For example, :ref:`assigning a grade <Publish Grade Events>` is a common event.
 
 .. contents:: Section Contents:
  :local:
@@ -25,8 +26,8 @@ and when a grade for the learner's interaction is assigned. For example, when a
 learner submits an answer or otherwise interacts with your XBlock, an event
 should record that action.
 
-Your XBlock must emit an event to `assigning a grade <Publish Grade
-Events>`_ to a learner.
+Your XBlock must emit an event to :ref:`assign a grade <Publish Grade Events>`
+to a learner.
 
 Analysis of events can provide insight about how learners use the XBlock in the
 runtime application. Using event data, analysts should be able to reconstruct
@@ -39,10 +40,9 @@ Publish Events in Handler Methods
 You define the events your XBlock emits in the XBlock's :ref:`handler methods
 <Handler Methods>`.
 
-In the handler method, you use the XBlock `runtime interface <Runtime Publish
-Method>`_ ``publish`` method to emit the event. The ``runtime.publish`` method
-causes the runtime application to save the event data in the application event
-stream.
+In the handler method, you use the XBlock runtime interface ``publish`` method
+to emit the event. The ``runtime.publish`` method causes the runtime
+application to save the event data in the application event stream.
 
 The following code shows the ``runtime.publish`` method syntax in an XBlock
 handler:
@@ -58,6 +58,8 @@ Note the following information about the ``runtime.publish`` method.
 
 * The event dictionary contains key-value pairs that define the event. 
 
+.. _Publish Grade Events:
+
 ********************
 Publish Grade Events
 ********************
@@ -65,7 +67,7 @@ Publish Grade Events
 To assign a grade for a learner's interaction with the XBlock, the XBlock
 handler method must publish a grade event.
 
-A grade event is uses the ``runtime.publish`` method with specific arguments.
+A grade event uses the ``runtime.publish`` method with specific arguments.
 
 * The event type is ``grade``.
 
@@ -73,8 +75,9 @@ A grade event is uses the ``runtime.publish`` method with specific arguments.
 
   * ``value``: The learner's score
   * ``max_value``: The maximum possible score
-  * ``user_id``: The ID of the user. Optional. If not specified, the current
-    user's ID is used.
+  
+The event dictionary can also contain the ``user_id`` entry. If ``user_id`` is
+not specified, the current user's ID is used.
 
 For example, the following handler code emits a grade for the learner that is
 stored in the ``submission_result`` variable in an XBlock with the maximum

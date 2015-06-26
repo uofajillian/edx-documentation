@@ -17,11 +17,11 @@ requires.
 Studio Requirements for XBlocks
 *******************************
 
-Studio requires the XBlocks to have the following properties.
+Studio requires XBlocks to have the following properties.
 
 * A :ref:`view method <View Methods>` named ``studio_view``. This is the view
   that renders the XBlock in the Studio editor, allowing the instructor to
-  configure it. In Studio, the instructor access this view by selecting
+  configure it. In Studio, the instructor accesses this view by selecting
   **Edit** in the component.
 
 * A view method named ``author_view``. This view is used to display the XBlock

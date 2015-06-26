@@ -15,15 +15,16 @@ XBlock Tree Structure
 **********************
 
 An XBlock does not refer directly to its children. Instead, the structure of a
-tree of XBlocks is maintained by the runtime, and is made available to the
-XBlock through a runtime service.
+tree of XBlocks is maintained by the runtime application, and is made available
+to the XBlock through a runtime service. For more information, see :ref:`XBlock
+Runtimes`.
 
 This allows the runtime to store, access, and modify the structure of a course
 without incurring the overhead of the XBlock code itself.
 
 XBlock children are not implicitly available to their parents. The runtime
-provide the parent XBlock with a list of child XBlock IDs. The child XBlock can
-then be loaded with the ``get_child()`` function. Therefor the runtime can
+provides the parent XBlock with a list of child XBlock IDs. The child XBlock
+can then be loaded with the ``get_child()`` function. Therefor the runtime can
 defer loading child XBlocks until they are actually required.
 
 .. example?
@@ -58,8 +59,8 @@ To access XBlock children through the server, use the following methods.
 Accessing Children (Client-Side)
 ********************************
 
-To access XBlock children through the client, with JavaScript, the client-side
-(via JavaScript), use the following methods.
+To access XBlock children through the client, with JavaScript, use the
+following methods.
 
 * Use ``runtime.children(element)``, where ``element`` is the DOM node that
   contains the HTML representation of your XBlock’s server-side view.
