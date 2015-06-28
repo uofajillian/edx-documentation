@@ -2,9 +2,11 @@
 Read Me
 *******
 
-The edX *XBlock Tutorial* is created using RST_ files and Sphinx_. You, the
+The *EdX XBlock Tutorial* is created using RST_ files and Sphinx_. You, the
 user community, can help update and revise this documentation project on
-GitHub::
+GitHub.
+
+.. code-block:: html
 
   https://github.com/edx/edx-documentation/tree/master/en_us/xblock/source
 

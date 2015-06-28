@@ -12,7 +12,7 @@ In ``myxblock.js``, you will define code that manages user interaction
 with the XBlock. The code is added to a :ref:`fragment <XBlock
 Fragments>`. 
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1 
 
@@ -49,8 +49,10 @@ Follow the guidelines below.
 
     var handlerUrl = runtime.handlerUrl(element, 'vote');
   
-* Add Post commands in the ``MyXBlock`` function to increase the up and
+* Add ``Post`` commands in the ``MyXBlock`` function to increase the up and
   down votes in the XBlock.
+
+  .. note:: Do not change the main function name, ``MyXBlock``.
 
 *******************************************
 Check JavaScript Against the Thumbs XBlock
@@ -64,14 +66,11 @@ the Thumbs XBlock.
 If necessary, make corrections to the code in your XBlock so that it
 matches the code in the Thumbs XBlock.
 
-.. note:: Do not change the main function name, ``MyXBlock``.
-
 **********************************
 Next Step
 **********************************
 
-When you have customized ``myxblock.js``, you must :ref:`customize the XBlock
-CSS file<Customize myxblock.css>`.
-
+After you complete your customizations to the JavaScript file, you continue on
+and :ref:`customize the XBlock CSS file<Customize myxblock.css>`.
 
 .. include:: ../links.rst

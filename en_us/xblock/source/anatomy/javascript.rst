@@ -11,8 +11,8 @@ In the XBlock JavaScript file, you define code that manages user interaction
 with the XBlock. The code is added to a :ref:`fragment <XBlock
 Fragments>`. 
 
-The XBlock’s JavaScript uses the runtime handler, and can use the children and
-childMap functions as needed.
+The XBlock’s JavaScript uses the runtime handler, and can use the ``children``
+and ``childMap`` functions as needed.
 
 The JavaScript references the XBlock :ref:`fields <XBlock Fields>`
 and :ref:`methods <XBlock Methods>`. The fragment is returned by the :ref:`view
@@ -36,7 +36,7 @@ Note the following details about the JavaScript file.
 
     var handlerUrl = runtime.handlerUrl(element, 'vote');
   
-* The ``ThumbsBlock`` function includes the Post commands to increase the up
+* The ``ThumbsBlock`` function includes the ``Post`` commands to increase the up
   and down votes in the XBlock.
   
 The XBlock JavaScript code can also use the ``children`` and ``childMap``

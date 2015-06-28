@@ -12,7 +12,7 @@ In ``myxblock.css``, you define the styles that are added to the
 fragment that is returned by the view method to be displayed by the runtime
 application.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1 
 
@@ -40,11 +40,11 @@ below.
 * Create a single class that defines formatting for ``.upvote`` and
   ``.downvote``.
 
-* The cursor is pointer.
+* The cursor type is pointer.
   
 * The border is 1px, solid, and with the color #888.
   
-* The padding is ``0 .5em``;
+* The padding is ``0.5em``;
   
 * The color for ``.upvote`` is green and for ``downvote`` is red.
 

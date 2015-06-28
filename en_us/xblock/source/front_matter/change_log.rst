@@ -7,7 +7,7 @@ June 2015
 ****************
 
 .. list-table::
-   :widths: 10 70
+   :widths: 15 70
    :header-rows: 1
 
    * - Date

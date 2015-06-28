@@ -11,7 +11,7 @@ follow these steps at a command prompt.
    
    .. code-block:: bash
 
-      script/startnew.py
+      $ Sscript/startnew.py
 
    After you run this command, instructions in the command window instruct you
    to determine a short name and a class name. Follow the guidelines in the
@@ -35,16 +35,20 @@ follow these steps at a command prompt.
       incorrectly, just type Ctrl-C to stop this script.  If you don't want the
       resulting project, just delete the directory it created.
 
-#. At the command prompt, enter the names you selected for your XBlock when you
-   receive the Short name and Class name prompts.
+#. At the command prompt, enter the Short Name you selected for your XBlock.
 
    .. code-block:: bash
   
       Short name: myxblock
+
+#. At the command prompt, enter the Class name you selected for your XBlock.
+
+   .. code-block:: bash
+  
       Class name: MyXBlock
 
-The skeleton files for the XBlock are created in the ``myxblock`` directory in
-the ``XBlock SDK`` directory. For more information about the XBlock files, see
+The skeleton files for the XBlock are created in ``xblock-sdk`` directory. For
+more information about the XBlock files, see
 :ref:`Anatomy of an XBlock`.
 
 .. LIST FILES

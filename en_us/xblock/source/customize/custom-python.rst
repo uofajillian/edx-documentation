@@ -12,7 +12,7 @@ In ``myxblock.py``, you will define :ref:`fields <XBlock Fields>`,
 :ref:`views <View Methods>`, :ref:`handlers <Handler Methods>`, and workbench
 scenarios.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1 
 
@@ -31,15 +31,17 @@ Add Comments
 ********************
 
 As a best practice and because XBlocks can be shared, you must add comments to
-the ``myxblock.py`` file. Provide a description of what the XBlock does and any
-details future developers or users would want to know.
+the ``myxblock.py`` file. Replace the "TO DO" indicators with a description of
+what the XBlock does and any details future developers or users would want to
+know.
 
 ********************
 Add XBlock Fields
 ********************
 
-You need to add three fields to the XBlock, each with the right :ref:`scope
-<Field Scope>`.
+To customize your ``myxblock.py`` file so that it has the same functionality
+as the ``thumbs.py`` file, you need to add three fields to the XBlock, each
+with the right :ref:`scope <Field Scope>`.
 
 * ``upvotes``, to store the number of times users up-vote the XBlock. The value
   applies to the XBlock and all users.
@@ -79,15 +81,28 @@ Note the following details.
 Define the Student View
 **************************
 
-THe XBlock Python file must contain one or more :ref:`view methods<View
-Methods>`. For the Thumbs XBlock, you must include a student view.
+The XBlock Python file must contain one or more :ref:`view methods<View
+Methods>`. 
+
+To run the XBlock in the edX Platform Learning Management System, there must be
+a method named ``student_view``. If you intend the XBlock to run in a different
+:ref:`runtime application <XBlock Runtimes>`, you might need to define a
+different name. For more information, see :ref:`EdX Learning Management
+System as an XBlock Runtime`.
 
 In ``myxblock.py``, examine the ``student_view`` method that was defined
 automatically when you created the XBlock.
 
+.. note::
+  The method name, ``student_view``, is required by the edX Platform Learning
+  Management System. If you intend the XBlock to run in a different
+  :ref:`runtime application <XBlock Runtimes>`, you might need to define a
+  different name. For more information, see :ref:`EdX Learning Management
+  System as an XBlock Runtime`.
+
 The student view composes and returns the :ref:`fragment <XBlock Fragments>`
-from static HTML, JavaScript, and CSS files. That fragment is displayed to
-students in a web page.
+from static HTML, JavaScript, and CSS files. A web page displays the fragment
+to learners.
 
 Note the following details about student view.
 
@@ -119,21 +134,20 @@ for MyXBlock, you do not need to edit the student view at all.
 Define the Vote Handler
 **************************
 
-Your XBlock must process votes from users, and you must add this logic in
-the vote :ref:`handler <Handler Methods>`.
+For your xblock to process votes from users the way that the Thumbs XBlock
+does, you use a :ref:`handler <Handler Methods>` to add the necessary logic.
 
 Define a handler method named ``vote`` in the ``MyXBlock`` class that processes
 user votes. The method must perform the following functions.
 
-* Update ``upvotes`` or ``downvotes`` fields based on the user's vote.
+#. Update ``upvotes`` or ``downvotes`` fields based on the user's vote.
 
-* Set the ``voted`` field to ``True`` for the user.
+#. Set the ``voted`` field to ``True`` for the user.
   
-* Return the updated ``upvotes`` and ``downvotes`` fields.
+#. Return the updated ``upvotes`` and ``downvotes`` fields.
 
 Review the :ref:`XBlock Methods` section, then implement the ``vote`` handler
-in ``myxblock.py``. You can remove the ``increment_count`` method, which was
-defined automatically when you create a new XBlock.
+in ``myxblock.py``. 
 
 ============================================
 Check the Handler Against the Thumbs XBlock
@@ -151,7 +165,7 @@ the handler in the Thumbs XBlock.
 Next Step
 **********************************
 
-When you have customized ``myxblock.py``, you must :ref:`customize the XBlock
-HTML file<Customize myxblock.html>`.
+After you complete your customizations to the Python file, you continue on and
+:ref:`customize the XBlock HTML file<Customize myxblock.html>`.
 
 .. include:: ../links.rst

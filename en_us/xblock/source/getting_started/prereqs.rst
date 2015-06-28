@@ -6,7 +6,7 @@ Install XBlock Prerequisites
 
 To build an XBlock, you must have the following tools on your computer.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 

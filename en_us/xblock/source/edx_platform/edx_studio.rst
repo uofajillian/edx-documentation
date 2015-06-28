@@ -7,7 +7,7 @@ EdX Studio as an XBlock Runtime
 EdX Studio is the application in the edX Platform that instructors use to build
 courseware.
 
-As instructors use Studio to add and configure XBlocks, Studio is
+Because instructors use Studio to add and configure XBlocks, Studio is
 also an :ref:`XBlock runtime <XBlock Runtimes>` application.
 
 As an XBlock developer, you must understand what XBlock properties Studio
@@ -30,7 +30,7 @@ Studio requires XBlocks to have the following properties.
   The ``author_view`` method should be as close as possible to the LMS
   ``student_view``, but may contain inline editing capabilities. 
 
-  If you do not define ``author_view``, the preview mode uses the
+  If you do not define an ``author_view``, the preview mode uses the
   ``student_view``. For more information, see :ref:`EdX Learning Management
   System as an XBlock Runtime`.
 

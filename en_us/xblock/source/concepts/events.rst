@@ -11,7 +11,7 @@ In most cases, your XBlock must emit events.
 
 For example, :ref:`assigning a grade <Publish Grade Events>` is a common event.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
    
@@ -21,6 +21,10 @@ For example, :ref:`assigning a grade <Publish Grade Events>` is a common event.
 When an XBlock Should Emit Events
 **********************************
 
+Analysis of events can provide insight about how learners use the XBlock in the
+runtime application. Using event data, analysts should be able to reconstruct
+the state of the XBlock at any point in time.
+
 Your XBlock should emit an event whenever a significant state change occurs,
 and when a grade for the learner's interaction is assigned. For example, when a
 learner submits an answer or otherwise interacts with your XBlock, an event
@@ -28,10 +32,6 @@ should record that action.
 
 Your XBlock must emit an event to :ref:`assign a grade <Publish Grade Events>`
 to a learner.
-
-Analysis of events can provide insight about how learners use the XBlock in the
-runtime application. Using event data, analysts should be able to reconstruct
-the state of the XBlock at any point in time.
 
 **********************************
 Publish Events in Handler Methods
@@ -45,7 +45,7 @@ to emit the event. The ``runtime.publish`` method causes the runtime
 application to save the event data in the application event stream.
 
 The following code shows the ``runtime.publish`` method syntax in an XBlock
-handler:
+handler.
 
 .. code-block:: python
 
@@ -89,8 +89,8 @@ grade of ``1.0``.
                        { value: submission_result
                          max_value: 1.0 })
 
-Typically, the handler method also returns the calculated grade, to be
-displayed to the learner.
+Typically, the handler method also returns the calculated grade, so that it can
+be displayed to the learner.
 
 .. note:: 
  To be graded, in addition to publishing the grade event, the XBlock must also

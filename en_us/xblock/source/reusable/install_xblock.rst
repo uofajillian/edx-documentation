@@ -10,5 +10,4 @@ In the ``xblock-sdk`` directory, use ``pip`` to install your XBlock.
 
       pip install -e myxblock
 
-You can then :ref:`test your XBlock <Testing an XBlock with the XBlock SDK>` in
-the XBlock SDK.
+You can then test your XBlock in the XBlock SDK.

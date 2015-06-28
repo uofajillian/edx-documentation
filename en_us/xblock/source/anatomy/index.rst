@@ -4,10 +4,14 @@
 Anatomy of an XBlock
 #####################
 
-This part of the tutorial walks through and explains the XBlock skeleton, and
-uses examples from the `Thumbs XBlock`_ that is installed with the XBlock SDK.
+This part of the tutorial explains the XBlock skeleton, and uses examples from
+the `Thumbs XBlock`_ that is installed with the XBlock SDK.
 
-The section :ref:`Customize Your XBlock` walks through the process of making the XBlock you creaetd, ``myxblock``, function like the Thumbs XBlock.
+The Thumbs XBlock enables learners to vote up or down. The Thumbs XBlock keeps
+track of vote totals.
+
+For information about making the XBlock that you created function like the
+example Thumbs XBlocK, see :ref:`Customize Your XBlock`.
 
 .. toctree::
    :maxdepth: 2

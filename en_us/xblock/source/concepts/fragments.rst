@@ -6,7 +6,7 @@ XBlock Fragments
 
 A fragment is a part of a web page returned by an XBlock view method. 
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
@@ -43,7 +43,7 @@ JavaScript Initializer
 The JavaScript specified for a fragment can also specify a function to be
 called when that fragment is rendered on the page.
 
-To DOM element containing all of the content in the fragment is passed to this
+The DOM element containing all of the content in the fragment is passed to this
 function, which then executes any code needed to make that fragment
 operational.
 

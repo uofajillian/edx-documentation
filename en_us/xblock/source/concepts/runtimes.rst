@@ -9,7 +9,7 @@ SDK, the :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>`,
 and :ref:`edX Studio <EdX Studio as an XBlock Runtime>` are all XBlock runtime
 applications.
    
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
@@ -17,7 +17,7 @@ applications.
 Runtime Functions
 ******************
 
-An XBlock runtime application must:
+An XBlock runtime application must perform the following functions.
 
 * Instantiate XBlocks with the correct data access.
   
@@ -53,11 +53,8 @@ A new XBlock runtime must provide the following capabilities.
 * A ``FieldData`` implementation, which provides access the underlying data
   storage for the XBlock fields.
 
-* [Proposed] A ``UsageStore``, which provides mappings between the various
-  fields of Scope IDs. In each case, by overriding specific methods in those
-  classes, the runtime application determines the behavior of the XBlocks.
-
-  .. still proposed?
+* A ``UsageStore``, which provides mappings between the various
+  fields of Scope IDs. [KEEP? STILL PROPOSED?]
 
 * Access to XBlock views and handlers.
 
@@ -69,8 +66,8 @@ A runtime application must document which XBlock views it renders, and in what
 context it will render those views. XBlock developers write views with those
 specific names so that they interact properly with the runtime application.
 
-When a runtime renders a view (by calling ``Runtime.render()`` or
-``XBlock.render())``, it receives a Fragment as a result.
+When a runtime renders a view by calling ``Runtime.render()`` or
+``XBlock.render()``, it receives a Fragment as a result.
 
 The runtime must embed ``Fragment.content`` into the HTML it is producing, add
 ``Fragment.head_html()`` to the head of the page, and add
@@ -92,7 +89,6 @@ applications.
 
 XBlock implementations might have arbitrarily named handler functions, so the
 runtime application must be able to route to any of them.
-
 
 ********************
 JavaScript Runtimes
@@ -166,7 +162,7 @@ XBlock Children
 The JavaScript runtime also returns the list of child XBlocks to the XBlock.
 
 From the example above, the following part of the runtime returns the list of
-children to the XBlock:
+children to the XBlock.
 
 .. code-block:: javascript
 
@@ -177,7 +173,7 @@ children to the XBlock:
     },
     . . .
 
-An XBlock uses the children function when it needs to iterate over an ordered
+An XBlock uses the ``children`` method when it needs to iterate over an ordered
 list of its child XBlocks.
 
 =================

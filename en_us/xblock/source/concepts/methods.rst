@@ -7,7 +7,7 @@ XBlock Methods
 You use XBlock methods in the XBlock Python file to define the behavior of your
 XBlock.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
    
@@ -25,9 +25,9 @@ student view for rendering the XBlock for learners, and an editing view for
 rendering the XBlock to course staff. The XBlock view name to use is specified
 in the runtime application.
 
-See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>` and
-:ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about the
-view requirements in these edX Platform XBlock runtime applications.
+For information about the view requirements in the edX Platform, see :ref:`edX
+LMS <EdX Learning Management System as an XBlock Runtime>` and
+:ref:`edX Studio <EdX Studio as an XBlock Runtime>`.
 
 Typically, you define a view to produce a fragment that is used to render the
 XBlock as part of a web page. Fragments are aggregated hierarchically. You can
@@ -91,5 +91,17 @@ handler for voting.
         self.voted = True
 
         return {'up': self.upvotes, 'down': self.downvotes}
+
+*********************************************
+Default Methods in a New XBlock
+*********************************************
+
+When you create a new XBlock, two methods are added automatically.
+
+* The view method ``student_view``.
+
+* The handler method ``increment_count``.  
+
+You can use these methods or remove them as needed.
 
 .. include:: ../links.rst

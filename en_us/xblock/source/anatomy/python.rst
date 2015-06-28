@@ -11,7 +11,7 @@ In the XBlock Python file, you define :ref:`fields <XBlock Fields>`,
 :ref:`views <View Methods>`, :ref:`handlers <Handler Methods>`, and workbench
 scenarios.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1 
 
@@ -19,7 +19,7 @@ scenarios.
 Thumb XBlock Fields
 ********************
 
-The ``thumbs.py`` file defines three fields for the XBlock in the
+The ``thumbs.py`` file defines the following fields for the XBlock in the
 ``ThumbsBlockBase`` class.
 
 .. include:: ../reusable/code_thumbs_fields.rst
@@ -45,8 +45,7 @@ The ``thumbs.py`` file defines the student view for the XBlock in the
 .. include:: ../reusable/code_thumbs_student_view.rst
 
 The student view composes and returns the fragment from static HTML,
-JavaScript, and CSS files. That fragment is displayed to students in a web
-page.
+JavaScript, and CSS files. A web page displays the fragment to learners.
 
 Note the following details about student view.
 

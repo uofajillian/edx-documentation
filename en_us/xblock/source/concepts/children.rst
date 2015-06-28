@@ -6,7 +6,7 @@ XBlock Children
 
 An XBlock can have child XBlocks. 
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
@@ -24,7 +24,7 @@ without incurring the overhead of the XBlock code itself.
 
 XBlock children are not implicitly available to their parents. The runtime
 provides the parent XBlock with a list of child XBlock IDs. The child XBlock
-can then be loaded with the ``get_child()`` function. Therefor the runtime can
+can then be loaded with the ``get_child()`` function. Therefore the runtime can
 defer loading child XBlocks until they are actually required.
 
 .. example?

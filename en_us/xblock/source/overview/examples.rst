@@ -4,41 +4,42 @@
 XBlock Examples
 #############################
 
-This section shows example XBlocks. These example are meant to demonstrate simple XBlocks and are not meant to show the range of capabilities.
+This section shows example XBlocks. These examples are meant to demonstrate
+simple XBlocks and are not meant to show the range of capabilities.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
-*******************************
-Google Drive and Calendar Tools
-*******************************
+*********************************
+Google Drive and Calendar XBlock
+*********************************
 
-You use the `Google Drive and Calendar XBlock`_ to embed Google documents and
-calendars in your courseware.
+Course teams can use the `Google Drive and Calendar XBlock`_ to embed Google
+documents and calendars in their courseware.
 
-As you can see, the Google Drive and Calendar XBlock is created and stored in a
-separate Github repository. You can explore this XBlock to learn how it is
-structured and developed.
+The Google Drive and Calendar XBlock is created and stored in a separate Github
+repository. You can explore the contents of this XBlock repository to learn how
+it is structured and developed.
 
-You can follow the instructions to install the XBlock on your Open edX system.
-For more information, see :ref:`XBlocks and the edX Platform`.
+Instructions are provided so that you can to install the XBlock on your Open
+edX system. For more information, see :ref:`XBlocks and the edX Platform`.
 
 ================================
 Adding the XBlock to Courseware
 ================================
 
 When the Google Drive and Calendar XBlock is installed on the edX Platform,
-course staff can add Google documents and calendars to courseware.
+course teams can add Google documents and calendars to courseware.
 
-For example, in Studio, course staff can add and configure a Google calendar
+For example, in Studio, course teams can add and configure a Google calendar
 component.
 
 .. image:: ../Images/google-calendar-edit.png
   :alt:  The Google Calendar editor in Studio.
   :width: 600
 
-Course staff or developers can also add a Google calendar using OLX.
+Course teams or developers can also add a Google calendar using OLX.
 
 .. code-block:: xml
 
@@ -50,29 +51,29 @@ Course staff or developers can also add a Google calendar using OLX.
   />
 
 For more information, see `Google Calendar Tool`_ and `Google Drive Tool`_ in
-the *Building and Running an Open edX Course*.
+*Building and Running an Open edX Course*.
 
 ==================
 Viewing the XBlock
 ==================
 
-When course staff use the Google Drive and Calendar XBlock, learners view
-Google documents and calendars directly in courseware.
+When course teams use the Google Drive and Calendar XBlock, learners can view
+the referenced Google documents and calendars directly in their the courseware.
 
 .. image:: ../Images/google-spreadsheet.png
   :alt:  The Google Calendar in the LMS.
   :width: 600
 
-***********
-XBlock SDK
-***********
+*********************************
+Examples in the XBlock SDK
+*********************************
 
-The `XBlock SDK`_ that you will use in this tutorial also contains several
-example XBlocks.
+The `XBlock SDK`_ that you use in this tutorial also contains several example
+XBlocks.
 
 We will use the `Thumbs XBlock`_ in the sections :ref:`Customize Your XBlock`
 and :ref:`Anatomy of an XBlock`.
 
-You can explore these and other example XBlocks in the XBlock SDK.
+You can explore the example XBlocks in the XBlock SDK.
 
 .. include:: ../links.rst

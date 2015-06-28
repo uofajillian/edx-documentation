@@ -7,8 +7,8 @@ EdX Learning Management System as an XBlock Runtime
 The edX Learning Management System (LMS) is the application in the edX Platform
 that learners access to view and interact with courseware.
 
-As it presents XBlocks to learners and records their interactions, the LMS is
-also an :ref:`XBlock runtime <XBlock Runtimes>` application.
+Because it presents XBlocks to learners and records their interactions, the LMS
+is also an :ref:`XBlock runtime <XBlock Runtimes>` application.
 
 As an XBlock developer, you must understand what XBlock properties the LMS
 requires.

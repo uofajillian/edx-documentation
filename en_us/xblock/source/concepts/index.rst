@@ -4,8 +4,8 @@
 XBlock Concepts
 ####################
 
-This part provides conceptual information about XBlocks and demonstrates
-examples.
+This part of the tutorial provides conceptual information about XBlocks and
+demonstrates examples.
 
 .. toctree::
    :maxdepth: 2

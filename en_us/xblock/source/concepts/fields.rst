@@ -6,7 +6,7 @@ XBlock Fields
 
 You use XBlock fields to store state data for your XBlock.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
@@ -40,7 +40,7 @@ When you initialize an XBlock field, you define three parameters.
 Field Scope
 ***********
 
-Field *scope* is the relationship of the field to users and the XBlock.
+Field scope is the relationship of the field to users and the XBlock.
 
 You define the field scope when initializing the field in the XBlock Python
 file. For example, in ``thumbs.py``, the ``voted`` field is initialized to have
@@ -73,9 +73,9 @@ Fields can relate to users in the following ways.
     query data. The same value is shared for all users, and you cannot 
     associate specific actions to specific users.
 
-===========
-Block Scope
-===========
+============
+XBlock Scope
+============
 
 Fields can relate to XBlocks in the following ways.
 
@@ -97,7 +97,7 @@ Fields can relate to XBlocks in the following ways.
   .. note:: 
     When you use the **All** scope, there is potential for name conflicts. If
     you have two fields of the same name with the scope **All** in different
-    XBlocks types, both fields point to the same data. Therefore you should use
+    XBlock types, both fields point to the same data. Therefore you should use
     caution when using **All**.
 
 =================================
@@ -119,6 +119,9 @@ can combine user and block scope.
 
 * Information about the user, such as language or timezone, is stored in a
   field with the scope with **One user** and **All**.
+
+Scope combinations that are used together frequently are available is a set of
+predefined scopes, as described below.
 
 =================================
 Predefined Scopes
@@ -185,9 +188,9 @@ You do not use the ``init`` method with XBlocks.
 XBlocks can be used in many contexts, and the ``init`` method might not work in
 those contexts.
 
-To initialize field values, use one of the following alternatives
+To initialize field values, use one of the following alternatives.
 
-* Use ``xblock.fields.UNIQUE_ID`` to set a default String value for the field. 
+* Use ``xblock.fields.UNIQUE_ID`` to set a default string value for the field. 
 
 * Use a lazy property decorator, so that when a field is first accessed, a
   function is called to set the value.
@@ -235,6 +238,13 @@ example:
 Field Requirements in the edx Platform
 *********************************************
 
-See :ref:`edX LMS <EdX Learning Management System as an XBlock Runtime>` and
-:ref:`edX Studio <EdX Studio as an XBlock Runtime>` for information about field
-requirements in these applications.
+For information about field requirements in the edX Platform, see :ref:`edX LMS
+<EdX Learning Management System as an XBlock Runtime>` and
+:ref:`edX Studio <EdX Studio as an XBlock Runtime>`.
+
+*********************************************
+Default Fields in a New XBlock
+*********************************************
+
+When you create a new XBlock, the ``count`` field is added to the Python file
+by default.  You can use this field or remove it as needed.

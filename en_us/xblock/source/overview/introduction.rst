@@ -4,14 +4,13 @@
 Introduction to XBlocks
 #############################
 
-XBlocks are the components that combine together to build interactive
-courseware.
-
+XBlocks are the components that you use to build interactive courseware.
+	
 Like HTML ``<div>`` tags, XBlocks can represent components as small as a
 paragraph of text, a video, or a multiple choice input field, or as large as a
 section, a chapter, or an entire course.
 
-.. contents:: Section Contents:
+.. contents:: Section Contents
  :local:
  :depth: 1
 
@@ -64,10 +63,10 @@ XBlock Independence and Interoperability
 
 You must design your XBlock to meet two goals.
 
-* The XBlock must be independent of other XBlocks. Course staff must be able to
+* The XBlock must be independent of other XBlocks. Course teams must be able to
   use the XBlock without using other XBlocks.
 
-* The XBlock must also work together with other XBlocks. Course staff must be
+* The XBlock must work together with other XBlocks. Course teams must be
   able to combine different XBlocks in flexible ways.
 
 =========================================
