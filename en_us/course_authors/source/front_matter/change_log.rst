@@ -232,8 +232,8 @@ December 2014
        Component` to indicate that you cannot use a custom JavaScript problem
        in a component with multiple problems.
    * - 12/02/14
-     - Added email template for a :ref:`<weekly highlights<Weekly Highlights>`
-       message to students.
+     - Added an email template for a :ref:`<weekly highlights<Weekly
+       Highlights>` message to students.
    * - 
      - The :ref:`Bulk Email` topic is now in the :ref:`Running Your Course
        Index` section.
@@ -304,7 +304,7 @@ October 2014
    * -
      - Added :ref:`Create a Randomized Custom Python-Evaluated Input Problem`.
    * - 10/23/14
-     - Added note about limited support of the annotation problem type to
+     - Added a note about limited support of the annotation problem type to
        :ref:`Annotation`.
    * - 10/16/14
      - Updated :ref:`Scheduling Your Course` to reflect 
@@ -336,7 +336,7 @@ September 2014
        Hint`.
    * - 
      - Removed "These problems only allow integers and a few select constants"
-       from table of problem types in :ref:`Create Exercises`.
+       from the table of problem types in :ref:`Create Exercises`.
    * - 
      - Added a note about angle bracket characters to the :ref:`Dropdown`
        topic.
@@ -465,13 +465,14 @@ May 2014
      - Change
    * - 05/30/14
      - Updated :ref:`Working with Video Components` to include recommendations
-       to use .mp4 and .webm video formats for browser compatibility
+       to use .mp4 and .webm video formats for browser compatibility.
    * - 05/27/14
      - Based on the new requirement to specify the complete location identifier
-       of a problem to adjust student grades, revised the :ref:`Grades` section.
+       of a problem to adjust student grades, revised the :ref:`Grades`
+       section.
    * - 05/22/14
-     - Reorganized, updated, and streamlined these sections in the
-       :ref:`Running Your Course Index` chapter:
+     - Reorganized, updated, and streamlined the following sections in the
+       :ref:`Running Your Course Index` section.
 
        * Divided *Grade and Answer Data* into separate sections for
          :ref:`Grades` and :ref:`Review_Answers`.
@@ -617,7 +618,8 @@ March 2014
        add feature.
    * - 03/19/14
      - Updated the sections on :ref:`Beta_Testing`, :ref:`Discussions`,
-       :ref:`Grades`, and :ref:`Student Data` with changes to the new Instructor Dashboard.
+       :ref:`Grades`, and :ref:`Student Data` with changes to the new
+       Instructor Dashboard.
    * - 03/17/14
      - Reorganized this document into the following major sections.
 
@@ -673,9 +675,9 @@ February 2014
      - Added the :ref:`Beta_Testing` chapter. 
    * - 02/19/14
      - Updated :ref:`Import LaTeX Code` to reflect the new workflow and a UI
-       change for creating Latex HTML components.
+       change for creating LaTeX HTML components.
    * - 02/18/14
-     - Included several enhancements to the :ref:`Establish a Grading Policy`
+     - Included several enhancements in the :ref:`Establish a Grading Policy`
        section.
    * - 02/14/14
      - Added :ref:`Additional Transcripts` section to :ref:`Working with Video
@@ -740,8 +742,8 @@ January 2014
    * - 01/06/2014
      - Created :ref:`Zooming image`.
    * - 01/01/2014
-     - Updated the chapters on Organizing Your Course Content and
-       Testing Your Course to reflect changes in the course outline
+     - Updated the chapters on organizing your course content and
+       testing your course to reflect changes in the course outline
        design.
 
 ***************
