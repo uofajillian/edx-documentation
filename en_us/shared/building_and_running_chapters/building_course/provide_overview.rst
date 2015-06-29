@@ -123,9 +123,9 @@ To add a course image, follow these steps.
 Add a Course Introduction Video
 *********************************
 
-To excite and entice potential students to enroll, each course can have a course
-introduction video. The video should reveal some of the personality the
-instructors bring to the course.
+To excite and entice potential students to enroll, each course can have a
+course introduction video. The video should reveal some of the personality that
+the members of the course team bring to the course.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/about-page-course-video.png
  :alt: Image of the course video in the course About page.

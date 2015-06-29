@@ -3403,7 +3403,7 @@ scored differently than the rubric.
      - object
      - A set of name/value pairs that identify criteria for which the student
        selected a different option than the rubric, in the format
-       ``criterion_name: instructor-defined_option_name``.
+       ``criterion_name: course-team-defined_option_name``.
    * - ``options_selected``
      - object
      - A set of name/value pairs that identify the option that the student

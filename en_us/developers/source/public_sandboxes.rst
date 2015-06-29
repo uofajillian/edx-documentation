@@ -103,7 +103,7 @@ So if you are working on Chinese (China), you'll log in with these credentials:
 * password: edx
 
 This user account has Course Staff privileges so that you can test Studio and
-instructor-specific pages in the LMS.
+the Instructor Dashboard pages in the LMS.
 
 You can also make new student-level user accounts, which is useful for verifying
 translations within the registration flow.

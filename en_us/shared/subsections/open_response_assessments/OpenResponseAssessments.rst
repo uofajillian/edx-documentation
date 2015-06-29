@@ -8,11 +8,11 @@ Open Response Assessments
 Introduction to Open Response Assessments
 *****************************************
 
-Open response assessments allow instructors to assign questions that might not
-have definite answers, such as text responses or short essays. Students submit
-responses to questions, then each student and the student's peers compare the
-responses to a rubric that you create. You can also allow students to upload an
-image to accompany a text response.
+Open response assessments allow the course team to assign questions that might
+not have definite answers, such as text responses or short essays. Students
+submit responses to questions, then each student and the student's peers
+compare the responses to a rubric that you create. You can also allow students
+to upload an image to accompany a text response.
 
 Open response assessments include peer assessments and self assessments. In peer
 assessments, students compare their peers' responses to a rubric that you
@@ -256,12 +256,11 @@ responses that he or she will assess.
 
 The student selects an option for each of the assignment's criteria, and then
 clicks **Compare your selections with the instructor's selections**. If all of
-the student's selections match the instructor's selections, the next sample
-response opens automatically.
+the student's selections match the selections defined in the rubric, the next
+sample response opens automatically.
 
-If any of the student's selections differs from the instructor's selections, the
-student sees the response again, and the following message appears above the
-response:
+If any of the student's selections differs from the rubric, the student sees
+the response again, and the following message appears above the response:
 
 .. code-block:: xml
 
@@ -271,7 +270,7 @@ response:
   the assessment again.
 
 For each of the criteria, the student sees one of the following two messages,
-depending on whether the student's selections matched those of the instructor:
+depending on whether the student's selections matched those of the course team.
 
 .. code-block:: xml
 
@@ -291,7 +290,7 @@ option.
    :width: 500
 
 The student continues to try scoring the sample response until the student's
-scoring for all criteria matches the instructor's scoring.
+scoring for all criteria matches the scoring in the rubric.
 
 For more information, see :ref:`PA Student Training Step`.
 

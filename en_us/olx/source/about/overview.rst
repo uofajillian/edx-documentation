@@ -62,14 +62,14 @@ Replace the placeholders in the following template with your information.
           align="left" style="margin:0 20 px 0"/>
       </div>
       <h3>Staff Member</h3>
-      <p>Biography of instructor/staff member</p>
+      <p>Biography of course team member</p>
     </article>
     <article class="teacher">
       <div class="teacher-image">
         <img src="/c4x/edX/edX101/asset/Placeholder_FalcutyImage.jpg"/>
       </div>
       <h3>Staff Member Name</h3>
-      <p>Biography of instructor/staff member</p>
+      <p>Biography of course team member</p>
     </article>
   </section>
   <section class="faq">
