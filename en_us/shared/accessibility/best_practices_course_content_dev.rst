@@ -190,8 +190,7 @@ users hear when they encounter the image in your content.
    desirable. However, the ``alt`` attribute must never be omitted.
 
 Create useful and meaningful text alternatives for images in your course by
-following the guidelines for particular situations described in the following
-topics.
+following these guidelines for particular situations.
 
 .. contents::
    :local:
