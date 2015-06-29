@@ -191,7 +191,7 @@ guidelines to assist you in creating useful and meaningful text alternatives
 for images images in your course.  For more information about adding images, 
 see :ref:`Add an Image to an HTML Component`. ::
 
-.. note:: All images *must* include an ``alt`` attribute.  There are some cases, 
+.. note:: All images *must* include an ``alt`` attribute.  There are some cases,
    noted below, when an empty ``alt`` attribute (``alt=""``) is desirable.  
    However, the ``alt`` attribute must never be omitted.
 
@@ -653,7 +653,7 @@ MathJax to author your math content.  MathJax renders math in a variety of
 formats on the client side, offering the end user the ability to consume math 
 content in their preferred format.  EdX Studio supports authoring math directly 
 in LaTeX using the `LaTeX Source Compiler 
-<https://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html#import-latex-code`_ to transform LaTeX into MathJax.
+<https://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_html_component.html#import-latex-code>`_ to transform LaTeX into MathJax.
 
 ======================================================
 Accessible Mathematical Content Resources
