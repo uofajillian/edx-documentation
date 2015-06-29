@@ -147,7 +147,7 @@ page:
  :width: 600
 
 The course video should excite and entice potential learners to enroll, and
-reveal some of the personality the instructors bring to the course.
+reveal some of the personality that the course team brings to the course.
 
 The video should answer these key questions:
 
@@ -240,7 +240,7 @@ Replace the placeholders in the following template with your information.
         style="margin:0 20 px 0" alt="Course Staff Image #1">
       </div>
       <h3>Staff Member #1</h3>
-      <p>Biography of instructor/staff member #1</p>
+      <p>Biography of course team member #1</p>
     </article>
     <article class="teacher">
       <div class="teacher-image">
@@ -248,7 +248,7 @@ Replace the placeholders in the following template with your information.
         style="margin:0 20 px 0" alt="Course Staff Image #2">
       </div>
       <h3>Staff Member #2</h3>
-      <p>Biography of instructor/staff member #2</p>
+      <p>Biography of course team member #2</p>
     </article>
   </section>
   <section class="faq">

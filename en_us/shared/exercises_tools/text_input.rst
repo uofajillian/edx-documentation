@@ -4,11 +4,11 @@
 Text Input Problem
 ########################
 
-In text input problems, learners enter text into a response field. The
-response can include numbers, letters, and special characters such as
-punctuation marks. Because the text that the learner enters must match the
-instructor's specified answer exactly, including spelling and punctuation, we
-recommend that you specify more than one correct answer for text input
+In text input problems, learners enter text into a response field. The response
+can include numbers, letters, and special characters such as punctuation marks.
+The text that the learner enters must match the specified answer exactly,
+including spelling and punctuation, to be marked correct. As a result, edX
+recommends that you specify more than one correct answer for text input
 problems to allow for differences in capitalization and typographical errors.
 
 .. image:: ../../../shared/building_and_running_chapters/Images/TextInputExample.png
@@ -247,8 +247,8 @@ regular expression as an answer. To do this, you modify the problem's XML in
 the Advanced Editor.
 
 The regular expression that the learner enters must contain the part of the
-answer that the instructor specifies. For example, if an instructor has
-specified  ``<answer="example answer" type="regexp">``, correct answers
+answer that the course team specifies. For example, if you 
+specify  ``<answer="example answer" type="regexp">``, correct answers
 include ``example answered``, ``two example answers``, or even ``==example
 answer==``, but not ``examples`` or ``example anser``.
 
@@ -307,7 +307,7 @@ Tags
 * ``<additional_answer>`` (optional): Specifies an additional correct answer
   for the problem. A problem can contain an unlimited number of additional
   answers.
-* ``<hintgroup>`` (optional): Indicates that the instructor has provided hints
+* ``<hintgroup>`` (optional): Indicates that the course team has provided hints
   for certain common incorrect answers.
 * ``<stringhint />`` (optional): Child of ``<hintgroup>``. Specifies the text
   of the incorrect answer to provide the hint for. Contains answer, type,
@@ -388,7 +388,7 @@ an unlimited number of additional answers.
 
 **Tag:** ``<hintgroup>``
 
-Indicates that the instructor has provided hints for certain common incorrect
+Indicates that the course team has provided hints for certain common incorrect
 answers.
 
   Attributes

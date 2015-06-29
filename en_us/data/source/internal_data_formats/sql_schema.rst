@@ -245,8 +245,8 @@ is_staff
   Generally, users with this flag set to 1 are either edX program managers
   responsible for course delivery, or edX developers who need access for
   testing and debugging purposes. Users who have ``is_staff`` = 1 have
-  instructor privileges on all courses and can see additional debug
-  information on the Instructor tab.
+  Admin privileges on all courses and can see additional debug
+  information on the Instructor Dashboard.
 
 .. note::
      This designation has no bearing on a user's role in the discussion

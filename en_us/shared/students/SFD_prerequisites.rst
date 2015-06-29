@@ -78,6 +78,6 @@ left pane, and you can access all available course materials.
   :alt: The student view after the student has passed the entrance exam, with
       all available course sections listed in the left pane
 
-Instructors can allow students to skip the entrance exam. If your instructor
-allows you to skip the entrance exam, you do not see the entrance exam when
-you access the course.
+The course team can allow students to skip the entrance exam. If a course team
+member allows you to skip the entrance exam, you do not see the entrance exam
+when you access the course.

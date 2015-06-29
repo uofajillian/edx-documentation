@@ -9,8 +9,8 @@ and course staff to access, share, and collaboratively edit information about
 the course. If your course includes a wiki, you access it by selecting the
 **Wiki** tab at the top of any page. (If your course does not include a wiki, this tab is not present.)
 
-Your course instructor may use the wiki for the following purposes, among
-others:
+The instructional team for your course might use the wiki for the following
+purposes, among others:
 
 * Sharing answers to course FAQs and collecting new FAQs.
 * Sharing editable course information, such as download and installation
@@ -21,7 +21,7 @@ others:
 * Collecting suggestions for future runs of the course.
 
 As a student, you can perform the following tasks, depending on the permissions
-that the instructor has set:
+that are set for the wiki.
 
 * :ref:`Add a wiki article<Adding a Wiki Article>`.
 * :ref:`Edit a wiki article<Editing a Wiki Article>`. If course staff allow
