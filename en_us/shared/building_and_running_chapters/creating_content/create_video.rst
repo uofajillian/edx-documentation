@@ -4,7 +4,7 @@
 Working with Video Components
 #############################
 
-This section describes how to work with HTML components in Studio.
+This section describes how to work with videos for your course.
 
 .. contents::
  :local:
